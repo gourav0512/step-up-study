@@ -5,7 +5,7 @@ const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '
 async function api(path, { method = 'GET', body, silent } = {}) {
   const isForm = body instanceof FormData;
   const r = await fetch(
-  'api' + path,
+  '/api' + path,
    {
     method, credentials: 'same-origin',
     headers: body && !isForm ? { 'Content-Type': 'application/json' } : {},

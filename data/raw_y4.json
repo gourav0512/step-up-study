@@ -1,0 +1,62 @@
+[
+ {
+  "code": "BCS701",
+  "name": "Artificial Intelligence",
+  "page": 3,
+  "units": {
+   "1": "Introduction to Artificial Intelligence & Intelligent Agents: Definition and scope of AI, History and applications of AI, Characteristics of Intelligent Agents, Types of agents and environments, Agent architecture, Problem Solving Approach to Typical AI problems, Problem-solving agents. Example problems and approaches.",
+   "2": "Problem Solving & Search Strategies: Uninformed Search Strategies: BFS, DFS, Iterative Deepening, Informed Search Strategies: Greedy Best-First Search, A* Search, Heuristics and Optimization, Hill Climbing, Simulated Annealing, Constraint Satisfaction Problems, Game Playing: Min-max, Alpha-Beta Pruning, Stochastic & Partially Observable Games.",
+   "3": "Knowledge Representation & Reasoning: Propositional and First Order Logic, Syntax, Semantics, and Inference, Knowledge-based agents: Wumpus world, Logic Programming using Prolog, Forward and Backward Chaining, Resolution, Ontological Engineering and Reasoning.",
+   "4": "Uncertainty & Learning Techniques: Introduction to uncertainty and probabilistic reasoning, Bayes' Rule, Bayesian Networks, Fuzzy logic and handling imprecision, Neural Networks (basics only): Perceptron, Backpropagation (intro level), Fundamentals of Machine Learning in AI context, Introduction to supervised and unsupervised learning.",
+   "5": "Applications of AI & Multi-Agent Systems: Natural Language Processing, Machine Translation, Information Retrieval and Extraction, Robotics: Perception, Planning, and Motion, Speech Recognition, Software Agents: Architecture, Communication, Trust, Multi-agent Negotiation and Reputation. Explainable AI (XAI) – Importance of interpretability, techniques for explaining black- box models, trust in AI, case studies in NLP and vision."
+  }
+ },
+ {
+  "code": "BCS070",
+  "name": "Internet of Things",
+  "page": 4,
+  "units": {
+   "1": "Internet of Things (IoT): Vision, Definition, Conceptual Framework, Architectural view, technology behind IoT, Sources of the IoT, M2M Communication, IoT Examples. Design Principles for Connected Devices: IoT/M2M systems layers and design standardization, communication technologies, data enrichment and consolidation, ease of designing and affordability",
+   "2": "Hardware for IoT: Sensors, Digital sensors, actuators, radio frequency identification (RFID) technology, wireless sensor networks, participatory sensing technology. Embedded Platforms for IoT: Embedded computing basics, Overview of IOT supported Hardware platforms such as Arduino, NetArduino, Raspberry pi, Beagle Bone, Intel Galileo boards and ARM cortex.",
+   "3": "Network & Communication aspects in IoT: Wireless Medium access issues, MAC protocol survey, Survey routing protocols, Sensor deployment & Node discovery, Data aggregation & dissemination",
+   "4": "Programming the Ardunio: Ardunio Platform Boards Anatomy, Ardunio IDE, coding, using emulator, using libraries, additions in ardunio, programming the ardunio for IoT.",
+   "5": "Challenges in IoT Design challenges: Development Challenges, Security Challenges, Other challenges IoT Applications: Smart Metering, E-health, City Automation, Automotive Applications, home automation, smart cards, communicating data with H/W units, mobiles, tablets, Designing of smart street lights in smart city."
+  }
+ },
+ {
+  "code": "BCS071",
+  "name": "Cloud Computing",
+  "page": 5,
+  "units": {
+   "1": "Introduction To Cloud Computing: Definition of Cloud – Evolution of Cloud Computing – Underlying Principles of Parallel and Distributed Computing – Cloud Characteristics – Elasticity in Cloud – On‐ demand Provisioning.",
+   "2": "Cloud Enabling Technologies Service Oriented Architecture: REST and Systems of Systems – Web Services – Publish, Subscribe Model – Basics of Virtualization – Types of Virtualization – Implementation Levels of Virtualization – Virtualization Structures – Tools and Mechanisms – Virtualization of CPU – Memory – I/O Devices –Virtualization Support and Disaster Recovery.",
+   "3": "Cloud Architecture, Services And Storage: Layered Cloud Architecture Design – NIST Cloud Computing Reference Architecture – Public, Private and Hybrid Clouds – laaS – PaaS – SaaS – Architectural Design Challenges – Cloud Storage – Storage‐as‐a‐Service – Advantages of Cloud Storage – Cloud Storage Providers – S3.",
+   "4": "Resource Management And Security In Cloud: Inter Cloud Resource Management – Resource Provisioning and Resource Provisioning Methods – Global Exchange of Cloud Resources – Security Overview – Cloud Security Challenges – Software‐as‐a‐Service Security – Security Governance – Virtual Machine Security – IAM – Security Standards.",
+   "5": "Cloud Technologies And Advancements Hadoop: MapReduce – Virtual Box — Google App Engine – Programming Environment for Google App Engine –– Open Stack – Federation in the Cloud – Four Levels of Federation – Federated Services and Applications – Future of Federation."
+  }
+ },
+ {
+  "code": "BCS072",
+  "name": "Cryptography & Network Security",
+  "page": 6,
+  "units": {
+   "1": "Introduction to security attacks, services and mechanism, Classical encryption techniques- substitution ciphers and transposition ciphers, cryptanalysis, steganography, Stream and block ciphers. Modern Block Ciphers: Block ciphers principles, Shannon’s theory of confusion and diffusion, fiestal structure, Data encryption standard(DES), Strength of DES, Idea of differential cryptanalysis, block cipher modes of operations, Triple DES",
+   "2": "Introduction to group, field, finite field of the form GF(p), modular arithmetic, prime and relative prime numbers, Extended Euclidean Algorithm, Advanced Encryption Standard (AES) encryption and decryptionFermat’s and Euler’s theorem, Primarily testing, Chinese Remainder theorem, Discrete Logarithmic Problem,Principals of public key crypto systems, RSA algorithm, security of RSA",
+   "3": "Message Authentication Codes: Authentication requirements, authentication functions, message authentication code, hash functions, birthday attacks, security of hash functions, Secure hash algorithm (SHA) Digital Signatures: Digital Signatures, Elgamal Digital Signature Techniques, Digital signature standards (DSS), proof of digital signature algorithm,",
+   "4": "Key Management and distribution: Symmetric key distribution, Diffie-Hellman Key Exchange, Public key distribution, X.509 Certificates, Public key Infrastructure. Authentication Applications: Kerberos, Electronic mail security: pretty good privacy (PGP), S/MIME.",
+   "5": "IP Security: Architecture, Authentication header, Encapsulating security payloads, combining security associations, key management. Introduction to Secure Socket Layer, Secure electronic, transaction (SET) System Security: Introductory idea of Intrusion, Intrusion detection, Viruses and related threats, firewalls"
+  }
+ },
+ {
+  "code": "BCS073",
+  "name": "Design & Development of Applications",
+  "page": 7,
+  "units": {
+   "1": "INTRODUCTION: Introduction to mobile applications – Embedded systems - Market and business drivers for mobile applications – Publishing and delivery of mobile applications – Requirements gathering and validation for mobile applications",
+   "2": "BASIC DESIGN: Introduction – Basics of embedded systems design – Embedded OS - Design constraints for mobile applications, both hardware and software related – Architecting mobile applications – User interfaces for mobile applications – touch events and gestures – Achieving quality constraints – performance, usability, security, availability and modifiability",
+   "3": "ADVANCED DESIGN: Designing applications with multimedia and web access capabilities – Integration with GPS and social media networking applications – Accessing applications hosted in a cloud computing environment – Design patterns for mobile applications.",
+   "4": "TECHNOLOGY I – ANDROID: Introduction – Establishing the development environment – Android architecture – Activities and views – Interacting with UI – Persisting data using SQLite – Packaging and deployment – Interaction with server side applications – Using Google Maps, GPS and Wi-Fi – Integration with social media applications.",
+   "5": "TECHNOLOGY II –iOS: Introduction to Objective C – iOS features – UI implementation – Touch frameworks – Data persistence using Core Data and SQLite – Location aware applications using Core Location and Map Kit – Integrating calendar and address book with social media application – Using Wi-Fi - iPhone marketplace. Swift: Introduction to Swift, features of swift"
+  }
+ }
+]

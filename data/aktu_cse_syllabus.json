@@ -1,0 +1,3585 @@
+{
+ "note": "Parsed from AKTU syllabus PDFs supplied by the user. Difficulty is a content-size estimate, not an official rating.",
+ "subjects": [
+  {
+   "code": "AAS103D",
+   "name": "Calculus and Linear Algebra",
+   "semester": 1,
+   "scheme": "2026-27",
+   "source": "aktu_syllabus_1st_year.pdf",
+   "optional": false,
+   "units": [
+    {
+     "no": 1,
+     "title": "Calculus · Applications",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Calculus",
+       "details": "Calculus: Introduction of Limits, continuity and differentiability for function of two variables, Partial derivatives, Composite functions, Total derivative, Euler’s Theorem for homogeneous functions, Change of variables Expansion for function of two variables, Jacobians, properties of Jacobian (without proof), Maxima & Minima for a function of several variables, Lagrange’s method of multipliers. Approximation of Errors.",
+       "difficulty": "medium"
+      },
+      {
+       "name": "Applications",
+       "details": "Applications: AI model optimization, Cloud computing performance, Data processing systems, Machine learning optimization, Neural network tuning, Resource allocation problem.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "Multiple Integrals · Applications",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Multiple Integrals",
+       "details": "Multiple Integrals: Evaluation of double and triple integrals, change of order of integration, Change of variable (double integral), Beta and Gamma functions, Properties of Beta and Gamma function, Dirichlet,s Integral. Application of double integrals and Triple Integral to find area and volume.",
+       "difficulty": "medium"
+      },
+      {
+       "name": "Applications",
+       "details": "Applications: Image processing, Data density estimation, AI probability distribution.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "Vector Calculus · Applications",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Vector Calculus",
+       "details": "Vector Calculus: Scalar point function, Vector point function, Gradient of a scalar field, Directional derivatives, Divergence and curl of a vector function and their application to solenoidal and irrotational vectors respectively. Integration of Vectors, Stokes Theorem and Gauss Divergence Theorem (Without Proof).",
+       "difficulty": "medium"
+      },
+      {
+       "name": "Applications",
+       "details": "Applications: AI heat mapping, Robotics path planning, Computer graphics vector fields.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "Matrices · Applications",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Matrices",
+       "details": "Matrices: Introduction to Matrices, Complex Matrices: Hermitian, Skew Hermitian and Unitary Matrix. Elementary Transformation, Inverse by E- transformation, Rank of a Matrix by Echelon Form, Solution of system of linear Equations by direct method (Gauss Elimination Method), and Iterative method (Gauss Seidel Method). Eigen Values & Eigen Vectors, Similarity Transformation, Diagonalization, Stability Interpretation.",
+       "difficulty": "medium"
+      },
+      {
+       "name": "Applications",
+       "details": "Applications: Error detection and correction codes, Computer Graphics Rendering , Loop Current Analysis, Principal Component Analysis (PCA), Face recognition systems.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "Introduction to Vector Space · Application",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Introduction to Vector Space",
+       "details": "Introduction to Vector Space: Definition of Field, Introduction to Vector Spaces, Basic Properties of Vector Spaces, Sub spaces, Linear dependence and independence of vectors, Basis and Dimension.",
+       "difficulty": "medium"
+      },
+      {
+       "name": "Application",
+       "details": "Application: Engineering Data Modeling and Compression, Signal representation and processing, Noise reduction using vector space concepts .",
+       "difficulty": "easy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "ACS101",
+   "name": "Programming Languages",
+   "semester": 1,
+   "scheme": "2026-27",
+   "source": "aktu_syllabus_1st_year.pdf",
+   "optional": false,
+   "units": [
+    {
+     "no": 1,
+     "title": "Programming Basics (C)",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Programming Basics (C)",
+       "details": "Programming Basics (C): 1. Structure of a C program; compilation and execution 2. Data types, variables, constants, operators (arithmetic, relational, logical) 3. Input/output — scanf/printf in C 4. Type conversion; simple expressions Real connect: C powers embedded systems, microcontrollers, and OS kernels.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "Decision Making and Control Flow (C)",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Decision Making and Control Flow (C)",
+       "details": "Decision Making and Control Flow (C): 1. Control Statements 2. Loops — for, while, do-while; break and continue 3. Functions — definition, call, return; call by value",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "Advanced Programming Concepts (C) · File Handling",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Advanced Programming Concepts (C)",
+       "details": "Advanced Programming Concepts (C): 1. 1D array — declaration, input, output, traversal 2. Simple operations — find max, min, sum, average 3. Strings in C — gets/puts, strlen, strcpy, strcmp 4. Pointer — concept of address and pointer variable (concept only, not deep) 5. Structures, 6.",
+       "difficulty": "medium"
+      },
+      {
+       "name": "File Handling",
+       "details": "File Handling Real connect: Arrays store sensor readings, image pixels, and stock prices. Pointers are the foundation of memory management in embedded systems.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "Python Introduction",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Python Introduction",
+       "details": "Python Introduction: 1. Why Python — where it is used (AI, Data Science, Web, Automation) 2. Python basics — variables, data types, print, input, operators 3. Python control flow — if/else, for loop, while loop 4. Python functions — def, return, default arguments Real connect: Python is #1 in AI/ML, Data Science, and automation — same syntax, more power, less boilerplate.",
+       "difficulty": "hard"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "Python Data Structures and Emerging",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Python Data Structures and Emerging",
+       "details": "Python Data Structures and Emerging Applications 1. Python list, tuple, dictionary, set — basic operations only 2. File handling — read and write a text file; read a CSV (2–3 lines) 3. Introduction to NumPy — array, mean, simple arithmetic (5 lines) 4. Introduction to Matplotlib — plot a simple line graph (5 lines) 5. One mini-demo — IoT sensor simulation",
+       "difficulty": "hard"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "AAI101",
+   "name": "Introduction to AI and Prompt Engineering",
+   "semester": 1,
+   "scheme": "2026-27",
+   "source": "aktu_syllabus_1st_year.pdf",
+   "optional": true,
+   "units": [
+    {
+     "no": 1,
+     "title": "Introduction to Artificial Intelligence",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Introduction to Artificial Intelligence",
+       "details": "Introduction to Artificial Intelligence 1. Definition and scope of AI; brief history — from Alan Turing to ChatGPT",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "Core AI Concepts 1 · Machine learning · Branch connect",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Core AI Concepts 1",
+       "details": "Core AI Concepts 1.",
+       "difficulty": "easy"
+      },
+      {
+       "name": "Machine learning",
+       "details": "Machine learning: Classification Techniques- K- Nearest Neighbors (KNN), Naïve Bayes, Clustering Technique-K-Means 2. Classification metrics-accuracy, precision, recall, F1 score, MAE. 3. Neural networks — concept of neurons, layers, weights (simple diagram) 4. Deep learning — what makes it 'deep'; why it needs GPUs, CNN 5. Computer vision — how AI sees images (face recognition, medical imaging) 6. Natural Language Processing (NLP) — how AI understands text and speech Class Activity: Show Google Teachable Machine (teachablemachine.withgoogle.com) — train a simple image classifier in 5 minutes, no code.",
+       "difficulty": "hard"
+      },
+      {
+       "name": "Branch connect",
+       "details": "Branch connect: ECE — image sensors + AI; BT — protein structure prediction (AlphaFold); AG — plant disease detection from photos; TX — fabric defect detection.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "Generative AI and Large Language Models",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Generative AI and Large Language Models",
+       "details": "Generative AI and Large Language Models 1. What is Generative AI — AI that creates text, images, code, audio, video",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "AI Applications Across Engineering Domains",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "AI Applications Across Engineering Domains",
+       "details": "AI Applications Across Engineering Domains 1. AI in Civil Engineering — structural health monitoring, smart cities, traffic optimisation 2. AI in Mechanical Engineering — predictive maintenance, design optimisation, robotics 3. AI in Electrical and Electronics — smart grids, fault detection, VLSI design automation 4. AI in CSE — code generation (GitHub Copilot), cybersecurity, natural language interfaces 5. AI in Biotechnology and Healthcare — drug discovery, medical imaging, genomics, wearables 6. AI in Agricultural Engineering — precision farming, crop monitoring, drone-based spraying, soil analysis 7. AI in Chemical and Textile Engineering — process optimisation, quality control, material design 8. Ethical concerns — bias in AI, data privacy, job displacement, responsible AI Class Activity: One case study per student group — each group presents a 2-minute real AI application from their own engineering branch.",
+       "difficulty": "hard"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "Prompt Engineering 1 · Prompting techniques · Graded prompt assignment",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Prompt Engineering 1",
+       "details": "Prompt Engineering 1. What is a prompt — the instruction you give to an AI model 2. Why prompt quality matters — same AI, very different results with different prompts 3. Principles of good prompting — clarity, context, specificity, role assignment, format instruction 4.",
+       "difficulty": "medium"
+      },
+      {
+       "name": "Prompting techniques",
+       "details": "Prompting techniques: • Zero-shot prompting — direct question • Few-shot prompting — give examples in the prompt • Chain-of-thought prompting — ask AI to think step by step • Role prompting — 'Act as a civil engineer and...' 5. Prompt for different tasks — summarisation, explanation, code generation, report writing, brainstorming, translation 6. Domain-specific prompting — students write prompts relevant to their own branch (CE, ME, BT, AG, etc.) 7. AI tools for engineers — GitHub Copilot (code), Grammarly (writing), Consensus (research), Wolfram Alpha, Canva AI, Notion AI Hands-on Practice (every lecture): Students write prompts, compare outputs, refine and improve.",
+       "difficulty": "hard"
+      },
+      {
+       "name": "Graded prompt assignment",
+       "details": "Graded prompt assignment: write 5 prompts for an engineering problem from their own branch. Prompt Engineering is already a job role (avg. salary $100K+ globally). Every engineer who can communicate well with AI has a significant career advantage.",
+       "difficulty": "medium"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "AAS101E",
+   "name": "Quantum Physics and Applications",
+   "semester": 1,
+   "scheme": "2026-27",
+   "source": "aktu_syllabus_1st_year.pdf",
+   "optional": true,
+   "units": [
+    {
+     "no": 1,
+     "title": "Fundamentals of Quantum Mechanics",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Fundamentals of Quantum Mechanics",
+       "details": "Fundamentals of Quantum Mechanics: Inadequacy of classical mechanics, de-Broglie concept of matter waves, Davisson and Germer experiment, wave packet, phase velocity, group velocity, Heisenberg’s uncertainty principle and its applications, time- dependent and time-independent Schrodinger wave equations, particle confined in one dimensional box, wave function and its physical interpretation.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "Quantum Theory of Solids",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Quantum Theory of Solids",
+       "details": "Quantum Theory of Solids: Free electron theory, Fermi-Dirac distribution, energy bands in solids, band gap, conductors, semiconductors and insulators, effective mass, density of states, intrinsic and extrinsic semiconductors, conductivity of semiconductors, Fermi level.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "Quantum Computing and Communication",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Quantum Computing and Communication",
+       "details": "Quantum Computing and Communication: Quantum computation, quantum states, quantum superposition, quantum entanglement, decoherence, quantum bits (qubits), physical realization of qubits (solid state qubits, photonics qubits), basics of quantum gates, single-qubit gate, multi-qubit gate, quantum cryptography, quantum key distribution (QKD).",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "Photonics Fiber optics · Laser",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Photonics Fiber optics",
+       "details": "Photonics Fiber optics: Fundamental idea about optical fiber, acceptance angle, acceptance cone, numerical aperture, principle of light propagation in optical fiber, attenuation and attenuation coefficient in fibre.",
+       "difficulty": "medium"
+      },
+      {
+       "name": "Laser",
+       "details": "Laser: Interaction of radiation with matter (absorption, spontaneous and stimulated emission), principle of laser operation, Einstein’s coefficients, Ruby laser, He-Ne laser, laser applications.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "Superconductors · Nano-materials",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Superconductors",
+       "details": "Superconductors: Temperature dependence of resistivity and critical field in superconducting materials, Meissner effect, Type I and Type II superconductors, persistent current, high temperature superconductors, properties, applications of superconductors.",
+       "difficulty": "medium"
+      },
+      {
+       "name": "Nano-materials",
+       "details": "Nano-materials: Introduction and properties of nano-materials, basic concept of quantum dots, quantum wires and quantum well, applications of nano-materials.",
+       "difficulty": "easy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "AAS102D",
+   "name": "Applied Chemistry for Smart Systems",
+   "semester": 1,
+   "scheme": "2026-27",
+   "source": "aktu_syllabus_1st_year.pdf",
+   "optional": true,
+   "units": [
+    {
+     "no": 1,
+     "title": "Chemistry of Hardware Materials for Computing and Electronic Devices",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Chemistry of Hardware Materials for Computing and Electronic Devices",
+       "details": "Chemistry of Hardware Materials for Computing and Electronic Devices: Introduction to materials used in computers and electronic devices; semiconductors and conductors; silicon and its properties; basic concepts of doping; printed circuit board (PCB) materials; soldering materials; insulating and dielectric materials; reliability and corrosion of electronic components.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "Energy Storage and Power Chemistry",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Energy Storage and Power Chemistry",
+       "details": "Energy Storage and Power Chemistry: Fundamentals of electrochemistry; primary and secondary batteries; lithium-ion batteries and their applications in laptops, mobiles and EVs; battery safety and charging principles; supercapacitors; fuel cells; introduction to energy harvesting materials and wireless charging technologies.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "Sensors and Chemical Detection",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Sensors and Chemical Detection",
+       "details": "Sensors and Chemical Detection: Principles of chemical sensing, electrochemical sensors (amperometric,",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "Nanomaterials and Functional Materials for Smart Systems",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Nanomaterials and Functional Materials for Smart Systems",
+       "details": "Nanomaterials and Functional Materials for Smart Systems: Introduction to nanotechnology; carbon nanotubes (CNTs); graphene; quantum dots; smart coatings; self-cleaning and hydrophobic surfaces; photochromic and thermochromic materials; shape- memory polymers; applications in flexible electronics and smart devices.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "Green Chemistry and E-waste Management",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Green Chemistry and E-waste Management",
+       "details": "Green Chemistry and E-waste Management: Principles of green chemistry; environmentally friendly electronic materials; biodegradable electronics; e-waste generation and hazards; recycling of electronic waste; recovery of valuable metals; RoHS and WEEE directives; sustainable manufacturing and circular economy in electronics.",
+       "difficulty": "medium"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "AAS104",
+   "name": "Introduction to Indian Knowledge System",
+   "semester": 1,
+   "scheme": "2026-27",
+   "source": "aktu_syllabus_1st_year.pdf",
+   "optional": true,
+   "units": [
+    {
+     "no": 1,
+     "title": "Foundations of the Indian Knowledge System Definition… · Schools of Indian Philosophy",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Foundations of the Indian Knowledge System Definition…",
+       "details": "Foundations of the Indian Knowledge System Definition, scope, characteristics and significance of IKS; the IKS vision of NEP 2020; the fourteen (Chaturdasha) Vidyasthanas — four Vedas, four Upavedas and six Vedangas;",
+       "difficulty": "medium"
+      },
+      {
+       "name": "Schools of Indian Philosophy",
+       "details": "Schools of Indian Philosophy: Orthodox and Heterodox Schools; Oral and Written Knowledge Systems, Knowledge validation (pramanas). Case study: relevance of IKS for a present-day engineer.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "Indian Mathematics, Astronomy and Scientific",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Indian Mathematics, Astronomy and Scientific",
+       "details": "Indian Mathematics, Astronomy and Scientific Thinking Number Systems: Decimal place-value system, zero and infinity; Bhutasankhya and Katapayadi numeration; Pingala’s Chandahshastra and binary representation; Sulbasutras; contributions of",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "Engineering, Technology and Material Sciences",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Engineering, Technology and Material Sciences",
+       "details": "Engineering, Technology and Material Sciences Metallurgy — Wootz steel, zinc distillation and the Delhi Iron Pillar; town planning and architecture (Harappan, Vastu and Shilpa Shastra); water management — stepwells, tanks and irrigation, textile engineering Case study: materials-science analysis of the Iron Pillar/ Architecture of Stupas",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "Health, Wellness, Environment and Governance",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Health, Wellness, Environment and Governance",
+       "details": "Health, Wellness, Environment and Governance Ayurveda (Charaka and Sushruta), Tridosha; Yoga (Patanjali’s Ashtanga) and wellness; environment and sustainability in Indian thought; governance and management — Kautilya’s Arthashastra; ethics from the Bhagavad Gita. Case study: Yoga for well-being / Arthashastra management principles/ Learnings from Geeta",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "Contemporary Relevance, AI and Applications of",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Contemporary Relevance, AI and Applications of",
+       "details": "Contemporary Relevance, AI and Applications of IKS Digital preservation (CSIR-TKDL, IKS Division) and IPR; Sanskrit and computational linguistics — Panini’s Ashtadhyayi, NLP and AI for ancient texts; IKS-inspired sustainable engineering and innovation. Case study: AI/NLP applied to a Sanskrit corpus.",
+       "difficulty": "medium"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "AAS105",
+   "name": "Professional Communication and Technical Writing",
+   "semester": 1,
+   "scheme": "2026-27",
+   "source": "aktu_syllabus_1st_year.pdf",
+   "optional": true,
+   "units": [
+    {
+     "no": 1,
+     "title": "Professional Communication and Workplace",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Professional Communication and Workplace",
+       "details": "Professional Communication and Workplace Readiness  Fundamentals of communication: definition, process, importance of communication barriers to communication, 7 C’s of communication  Business Correspondence : Emails, Notices, Agenda, Minutes of Meeting, Technical Report and proposal  Résumé, CV and Cover Letter Writing",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "Grammar and Vocabulary for Technical Writing",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Grammar and Vocabulary for Technical Writing",
+       "details": "Grammar and Vocabulary for Technical Writing  Parts of Speech and Sentence Structure  Common Grammatical Errors, Subject–Verb Agreement, Tenses, and Articles  Technical Vocabulary, Word Formation, and Precision in Language  Tone, Style, and Clarity in Technical English  Editing and Proofreading Techniques for Technical Writing  Grammar and Vocabulary Enhancement through Practical Writing Exercises Assignments/Activities  Edit and proofread a technical paragraph to improve grammar, vocabulary, precision, and clarity.",
+       "difficulty": "hard"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "Public Speaking, Presentation and AI-Assisted",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Public Speaking, Presentation and AI-Assisted",
+       "details": "Public Speaking, Presentation and AI-Assisted Communication  Public speaking technique: Modes, verbal, and non- verbal communication  Understating non-verbal Communication through the Natyashastra: Angika Abhinaya (Body Language: Posture, Gestures, Facial Expressions),Vachika Abhinaya (Voice Modulation and Speech Delivery) ,Sattvika Abhinaya (Expression of Emotions and Authentic Communication)  Presentation Planning and Delivery  Data Visualization and Slide Design  Elevator Pitch  AI Tools for Presentation Design and Speech Practice, prompt writing for effective communication  Ethical Use of AI in Communication Assignments/Activities  Deliver an individual presentation.  Prepare an AI-assisted presentation with proper citations.  Record and evaluate an elevator pitch.",
+       "difficulty": "hard"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "Emotional Intelligence and Critical Thinking for",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Emotional Intelligence and Critical Thinking for",
+       "details": "Emotional Intelligence and Critical Thinking for Workplace Communication  Emotional Intelligence through the Bhagavad Gita :Self-awareness ,Self-regulation ,Empathy, Emotional Balance  Critical Thinking through Indian Values and Logical Traditions: Nyaya (Logical Reasoning),Viveka (Discrimination and Judgment),  Value-based Decision Making  Ethical Problem Solving  Reflective Thinking in Professional Contexts Assignments/Activities  Case study analysis using value-based decision making.  Reflective journal on emotional intelligence.  Group discussion on workplace ethical dilemmas.",
+       "difficulty": "hard"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "Leadership, Workplace Well-being, and Mindful",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Leadership, Workplace Well-being, and Mindful",
+       "details": "Leadership, Workplace Well-being, and Mindful Communication  Leadership definition and types  Leadership Communication: Active Listening, Constructive Feedback, Teamwork, and Collaboration  Mental Health, Stress Management, and Work-Life Balance  Effective Communication through Yogic Practices: Yama as Principles of Ethical Communication Ahimsa – Respectful and Non-violent Communication, Satya – Truthfulness and Transparency, Asteya – Integrity and Honesty, Brahmacharya – Responsible and Balanced Communication, Aparigraha – Freedom from Ego, Bias, and Possessiveness. Niyama for Personal and Professional Growth, Shaucha – Clarity of Thought and Communication, Santosha – Contentment and Positive Workplace Relationships, Tapas – Self- discipline and Professional Commitment, Svadhyaya – Self-reflection and Continuous Learning ,Ishvara Pranidhana – Purpose, Humility, and Service-oriented Leadership  Storytelling through Panchatantra: The Lion and the Rabbit (Leadership and Strategic Communication), The Merchant's Iron Balance (Emotional Intelligence and Strategic Conflict Resolution), The Two Fish and the Frog (Leadership,",
+       "difficulty": "hard"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "AEC101A",
+   "name": "Fundamentals of Electronics Engineering",
+   "semester": 1,
+   "scheme": "2026-27",
+   "source": "aktu_syllabus_1st_year.pdf",
+   "optional": true,
+   "units": [
+    {
+     "no": 1,
+     "title": "Diodes and Power Supply Circuits",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Diodes and Power Supply Circuits",
+       "details": "Diodes and Power Supply Circuits: p-n junction — concept of depletion layer, forward and reverse bias; ideal diode vs real diode; V-I characteristics; diode as a switch; half-wave and full-wave bridge rectifier; filter capacitor; Zener diode — Zener breakdown, voltage regulator circuit; LED — working and current-limiting resistor; applications: USB charger rectifier, 5V/3.3V regulated supply for Arduino/Raspberry Pi, LED indicators in electronics products",
+       "difficulty": "hard"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "Transistors as Switches and Amplifiers",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Transistors as Switches and Amplifiers",
+       "details": "Transistors as Switches and Amplifiers: Bipolar Junction Transistor (BJT) — Construction & VI characteristics of BJT, NPN and PNP, three regions of operation (cut-off, active, saturation); BJT as a switch (digital control of relay, buzzer, motor); BJT as a common-emitter amplifier (concept and gain);",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "Operational Amplifier (Op-Amp)",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Operational Amplifier (Op-Amp)",
+       "details": "Operational Amplifier (Op-Amp): Ideal op-amp characteristics — infinite gain, infinite input impedance, zero output impedance; practical characteristics of 741 IC, inverting amplifier — voltage gain formula; non-inverting amplifier — gain formula; voltage follower (buffer); summing amplifier; comparator — op-amp as comparator, threshold detection; applications: sensor signal amplification (temperature, light, pressure), audio amplifier, automatic night lamp comparator circuit, differential amplifier for ECG/EEG front-end (concept)",
+       "difficulty": "hard"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "Digital Electronics Basics",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Digital Electronics Basics",
+       "details": "Digital Electronics Basics: Number systems — binary, decimal, hexadecimal (conversion only); logic levels (HIGH/LOW, 0/1); basic logic gates — AND, OR, NOT, NAND, NOR, XOR with truth tables; Boolean algebra — basic laws and De Morgan's theorems; k-map (upto 4 variables), half adder and full adder (truth table and logic diagram); multiplexer concept; flip-flop — SR and D flip-flop (concept only); applications: binary addition in CPU ALU, MUX in data routing, digital signals in microcontroller I/O, basics of PLA / PLD devices.",
+       "difficulty": "hard"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "Electronic Systems and Emerging Applications",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Electronic Systems and Emerging Applications",
+       "details": "Electronic Systems and Emerging Applications: Microcontroller overview — what is a microcontroller, GPIO pins, ADC- ADC types – digital ramp type & flash type ADC, PWM (concept only, not programming); communication interfaces — UART, SPI, I2C (what they do, not detailed protocol); sensors and signal chain — sensor → conditioning (op-amp) → ADC → microcontroller; wireless communication basics — Bluetooth, Wi-Fi, Zigbee (concept); power management in electronics — LDO regulator, DC-DC converter (concept); applications: IoT weather station, smart home sensor node,",
+       "difficulty": "hard"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "AEE101A",
+   "name": "Fundamentals of Electrical Engineering",
+   "semester": 1,
+   "scheme": "2026-27",
+   "source": "aktu_syllabus_1st_year.pdf",
+   "optional": true,
+   "units": [
+    {
+     "no": 1,
+     "title": "Unit I – Basic Electrical Quantities and DC",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Unit I – Basic Electrical Quantities and DC",
+       "details": "Unit I – Basic Electrical Quantities and DC Circuits: Electric charge, current, voltage, EMF, resistance; Ohm's law; resistors in series and parallel; voltage divider and current divider; power and energy in a DC circuit; Kirchhoff's Voltage Law (KVL) and Kirchhoff's Current Law (KCL); simple mesh and nodal analysis; Thevenin's theorem (concept and simple problem",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "AC Circuits",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "AC Circuits",
+       "details": "AC Circuits: Generation of AC voltage; sinusoidal waveform — peak, RMS, and average values; form factor; phasor representation (simple); AC through pure R, pure L, pure C; series RL and RC circuits; impedance; active power (P), reactive power (Q), apparent power (S); power factor (PF); power factor improvement using capacitors; measurement of power in single-phase AC circuit using wattmeter.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "Three-Phase Systems",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Three-Phase Systems",
+       "details": "Three-Phase Systems: Advantages of three-phase supply over single-phase; generation of balanced three-phase voltage; star (Y) and delta (Δ) connections; phase and line voltages and currents; power in balanced three-phase circuits; two- wattmeter method for power measurement; concept of neutral wire",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "Magnetic Circuits, Transformers",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Magnetic Circuits, Transformers",
+       "details": "Magnetic Circuits, Transformers: Magnetic flux, flux density, MMF, reluctance; simple series magnetic circuit; Faraday's law of electromagnetic induction; self-inductance and mutual inductance; principle of operation of single-phase transformer; EMF equation; ideal transformer — voltage ratio, current ratio, turns ratio; basic equivalent circuit of single phase transformer, losses (core and copper), efficiency",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "Electrical Machines and Emerging Electrical Systems",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Electrical Machines and Emerging Electrical Systems",
+       "details": "Electrical Machines and Emerging Electrical Systems: DC motor — principle, back EMF, torque, speed control concept; Types of DC motors and their application; BLDC motor — basic concept and applications , three-phase induction motor — rotating magnetic field, slip, torque; Application of three phase induction motors, introduction to solar photovoltaic (PV) system- Single diode model, current-voltage characteristics, PV characteristics, electrical safety in laboratory",
+       "difficulty": "hard"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "AME101A",
+   "name": "Fundamentals of Mechanical Engineering",
+   "semester": 1,
+   "scheme": "2026-27",
+   "source": "aktu_syllabus_1st_year.pdf",
+   "optional": true,
+   "units": [
+    {
+     "no": 1,
+     "title": "Engineering Mechanics and Strength of Materials (Basics) · Applications",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Engineering Mechanics and Strength of Materials (Basics)",
+       "details": "Engineering Mechanics and Strength of Materials (Basics): Types of forces and their effects; concept of stress and strain; beams — types of loads (point load, UDL), engineering materials — metals, polymers, ceramics, composites (properties and uses).",
+       "difficulty": "medium"
+      },
+      {
+       "name": "Applications",
+       "details": "Applications: frame of a laptop/server rack, load on a tower antenna, material selection for a robot arm, chassis of an electric vehicle.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "Thermodynamics and Heat Transfer Basics",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Thermodynamics and Heat Transfer Basics",
+       "details": "Thermodynamics and Heat Transfer Basics: System and surroundings; laws of thermodynamics; heat transfer — conduction, convection, radiation.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "Machine Elements and Power Transmission · Applications",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Machine Elements and Power Transmission",
+       "details": "Machine Elements and Power Transmission: Fasteners — bolts, screws, keys (types and use); shafts and couplings — rigid and flexible; bearings — ball bearing and roller bearing; belts and chains.",
+       "difficulty": "medium"
+      },
+      {
+       "name": "Applications",
+       "details": "Applications: gear train in a robotic joint, belt drive in a 3D printer, ball bearings in drone motor.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "Manufacturing Processes · Applications",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Manufacturing Processes",
+       "details": "Manufacturing Processes: Casting, forming, machining (drilling, milling, grinding), joining — soldering, brazing; additive manufacturing — 3D printing, CNC machining concept.",
+       "difficulty": "easy"
+      },
+      {
+       "name": "Applications",
+       "details": "Applications: 3D- printed drone frame, cast aluminium heat sink, welded server rack.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "Mechatronics, Robotics, and Emerging",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Mechatronics, Robotics, and Emerging",
+       "details": "Mechatronics, Robotics, and Emerging Mechanical Systems: Introduction to mechatronics; actuators — DC motor, stepper motor, servo motor, hydraulic and pneumatic actuators, introduction to robotics (Cartesian, SCARA, articulated), drones — airframe, propulsion, flight controller concept and Industry 4.0.",
+       "difficulty": "medium"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "AAS203D",
+   "name": "Numerical Methods",
+   "semester": 2,
+   "scheme": "2026-27",
+   "source": "aktu_syllabus_1st_year.pdf",
+   "optional": false,
+   "units": [
+    {
+     "no": 1,
+     "title": "Differential Equations · Applications",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Differential Equations",
+       "details": "Differential Equations: Linear differential equation of nth order with constant coefficients, Cauchy- Euler equation, solution of second order linear differential equations with variable coefficient by the method of variation of parameters, change of independent variable, normal form.",
+       "difficulty": "medium"
+      },
+      {
+       "name": "Applications",
+       "details": "Applications: Cloud Computing, Computer Networks, Cyber Security",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "Complex Analysis",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Complex Analysis",
+       "details": "Complex Analysis: Functions of Complex Variables, Limit Continuity and Differentiability, Analytic Function, Cauchy-Riemann Equations (Cartesian and Polar Form), Harmonic Function, Milne- Thomson Method, Complex integrals, Cauchy-",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "Laplace Transform · Applications",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Laplace Transform",
+       "details": "Laplace Transform: Definition of Laplace Transform, Existence Conditions, Linearity Property, Laplace Transform of some standard functions, I and II Shifting theorems (without proof), Change of Scale Property, Laplace transform of derivatives and integrals, Periodic Functions, Unit Step Function, Inverse Laplace Transform, Partial Fraction Method, Convolution theorem (without proof), Application of Laplace transform to solve ordinary differential equation.",
+       "difficulty": "medium"
+      },
+      {
+       "name": "Applications",
+       "details": "Applications: Database Systems, Algorithmic Modelling",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "Fourier Series& Fourier Transform · Applications",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Fourier Series& Fourier Transform",
+       "details": "Fourier Series& Fourier Transform: Periodic function, even and odd function, Dirichlet’s Condition for the Existence of a Fourier Series, Fourier series expansion of a function in the interval c to c+2l,Change of Interval, Half Range Series: Half range sine and cosine series in the interval -l to l, Parseval’s Identity. Fourier Integral theorem, Fourier transform, Inverse Fourier Transform, Finite Fourier Sin and Cosine transform.",
+       "difficulty": "hard"
+      },
+      {
+       "name": "Applications",
+       "details": "Applications: Computer Graphics, Cyber Security, Digital Image Processing, Machine Learning Feature Extraction, Image compression.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "Applied Linear Algebra · Application",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Applied Linear Algebra",
+       "details": "Applied Linear Algebra: Eigen Value Decomposition and Singular Value Decomposition, Matrix factorization, LU Decomposition (Dolittle method), QR Decomposition, Linear transformation, Matrix representation of Linear Transformation, Kernel and Range, Introduction to inner product space, Norm of a vector.",
+       "difficulty": "medium"
+      },
+      {
+       "name": "Application",
+       "details": "Application: 2D & 3D graphics, Neural Networks, Cryptography",
+       "difficulty": "easy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "ACS201",
+   "name": "Essentials of Data Structure",
+   "semester": 2,
+   "scheme": "2026-27",
+   "source": "aktu_syllabus_1st_year.pdf",
+   "optional": false,
+   "units": [
+    {
+     "no": 1,
+     "title": "Introduction and Arrays",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Introduction and Arrays",
+       "details": "Introduction and Arrays 1. Data structure — definition, need, classification (linear / non-linear, static / dynamic) 2. Algorithm efficiency — Big O notation: O(1), O(n), O(log n), O(n²) — concept only 3. Array — insert, delete, search, traverse in C/Python 4. 2D array — matrix addition and transpose Real connect:NumPy array (AI/ML), image as 2D matrix, sensor data log as array, spreadsheet rows.",
+       "difficulty": "hard"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "Linked List",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Linked List",
+       "details": "Linked List 1. Node — data + pointer; why linked list over array 2. Singly linked list — insert (head, tail, position), delete, traverse 3. Doubly linked list — concept and structure only 4. Circular linked list — concept only Real connect: Browser back/forward = doubly linked list. Music playlist = circular. Python deque = doubly linked list (used in BFS, LRU cache).",
+       "difficulty": "hard"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "Stack and Queue 1 · Application · Application (2)",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Stack and Queue 1",
+       "details": "Stack and Queue 1. Stack — LIFO; push, pop, peek; implementation using array in C/Python 2.",
+       "difficulty": "easy"
+      },
+      {
+       "name": "Application",
+       "details": "Application: balanced parentheses check; function call stack (concept) 3. Queue — FIFO; enqueue, dequeue; implementation using array in C/ Python 4.",
+       "difficulty": "easy"
+      },
+      {
+       "name": "Application (2)",
+       "details": "Application: print spooler; task scheduling queue, Polish Notation Real connect: Ctrl+Z = Stack. WhatsApp delivery = Queue. Python error traceback IS a call stack. CPU scheduling = queue.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "Searching and Sorting 1 · Real connect: Binary search in database index.…",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Searching and Sorting 1",
+       "details": "Searching and Sorting 1. Linear search, binary search, comparison 2. Bubble sort and insertion sort, Quick Sort and Selection Sort — trace + C/ Python 3. Merge sort — concept and trace only 4. Python built-in sort() and sorted()",
+       "difficulty": "medium"
+      },
+      {
+       "name": "Real connect: Binary search in database index.…",
+       "details": "Real connect: Binary search in database index. Python sort() uses Timsort. E-commerce ranking, leaderboard, ML data preprocessing = sorting.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "Trees and Graphs (Concept Level)",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Trees and Graphs (Concept Level)",
+       "details": "Trees and Graphs (Concept Level) 1. Binary tree — terminology (root, leaf, height, level); properties 2. Binary Search Tree — insert, search; inorder/preorder traversal trace 3. Graph — vertex, edge, directed/undirected; adjacency list representation, insertion",
+       "difficulty": "medium"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "AAI201",
+   "name": "Introduction to AI and Prompt Engineering",
+   "semester": 2,
+   "scheme": "2026-27",
+   "source": "aktu_syllabus_1st_year.pdf",
+   "optional": true,
+   "units": [
+    {
+     "no": 1,
+     "title": "Introduction to Artificial Intelligence",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Introduction to Artificial Intelligence",
+       "details": "Introduction to Artificial Intelligence 1. Definition and scope of AI; brief history — from Alan Turing to ChatGPT",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "Core AI Concepts 1 · Machine learning · Branch connect",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Core AI Concepts 1",
+       "details": "Core AI Concepts 1.",
+       "difficulty": "easy"
+      },
+      {
+       "name": "Machine learning",
+       "details": "Machine learning: Classification Techniques- K- Nearest Neighbors (KNN), Naïve Bayes, Clustering Technique-K-Means 2. Classification metrics-accuracy, precision, recall, F1 score, MAE. 3. Neural networks — concept of neurons, layers, weights (simple diagram) 4. Deep learning — what makes it 'deep'; why it needs GPUs, CNN 5. Computer vision — how AI sees images (face recognition, medical imaging) 6. Natural Language Processing (NLP) — how AI understands text and speech Class Activity: Show Google Teachable Machine (teachablemachine.withgoogle.com) — train a simple image classifier in 5 minutes, no code.",
+       "difficulty": "hard"
+      },
+      {
+       "name": "Branch connect",
+       "details": "Branch connect: ECE — image sensors + AI; BT — protein structure prediction (AlphaFold); AG — plant disease detection from photos; TX — fabric defect detection.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "Generative AI and Large Language Models",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Generative AI and Large Language Models",
+       "details": "Generative AI and Large Language Models 1. What is Generative AI — AI that creates text, images, code, audio, video",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "AI Applications Across Engineering Domains",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "AI Applications Across Engineering Domains",
+       "details": "AI Applications Across Engineering Domains 1. AI in Civil Engineering — structural health monitoring, smart cities, traffic optimisation 2. AI in Mechanical Engineering — predictive maintenance, design optimisation, robotics 3. AI in Electrical and Electronics — smart grids, fault detection, VLSI design automation 4. AI in CSE — code generation (GitHub Copilot), cybersecurity, natural language interfaces 5. AI in Biotechnology and Healthcare — drug discovery, medical imaging, genomics, wearables 6. AI in Agricultural Engineering — precision farming, crop monitoring, drone-based spraying, soil analysis 7. AI in Chemical and Textile Engineering — process optimisation, quality control, material design 8. Ethical concerns — bias in AI, data privacy, job displacement, responsible AI Class Activity: One case study per student group — each group presents a 2-minute real AI application from their own engineering branch.",
+       "difficulty": "hard"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "Prompt Engineering 1 · Prompting techniques · Graded prompt assignment",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Prompt Engineering 1",
+       "details": "Prompt Engineering 1. What is a prompt — the instruction you give to an AI model 2. Why prompt quality matters — same AI, very different results with different prompts 3. Principles of good prompting — clarity, context, specificity, role assignment, format instruction 4.",
+       "difficulty": "medium"
+      },
+      {
+       "name": "Prompting techniques",
+       "details": "Prompting techniques: • Zero-shot prompting — direct question • Few-shot prompting — give examples in the prompt • Chain-of-thought prompting — ask AI to think step by step • Role prompting — 'Act as a civil engineer and...' 5. Prompt for different tasks — summarisation, explanation, code generation, report writing, brainstorming, translation 6. Domain-specific prompting — students write prompts relevant to their own branch (CE, ME, BT, AG, etc.) 7. AI tools for engineers — GitHub Copilot (code), Grammarly (writing), Consensus (research), Wolfram Alpha, Canva AI, Notion AI Hands-on Practice (every lecture): Students write prompts, compare outputs, refine and improve.",
+       "difficulty": "hard"
+      },
+      {
+       "name": "Graded prompt assignment",
+       "details": "Graded prompt assignment: write 5 prompts for an engineering problem from their own branch. Prompt Engineering is already a job role (avg. salary $100K+ globally). Every engineer who can communicate well with AI has a significant career advantage.",
+       "difficulty": "medium"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "AAS201E",
+   "name": "Quantum Physics and Applications",
+   "semester": 2,
+   "scheme": "2026-27",
+   "source": "aktu_syllabus_1st_year.pdf",
+   "optional": true,
+   "units": [
+    {
+     "no": 1,
+     "title": "Fundamentals of Quantum Mechanics",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Fundamentals of Quantum Mechanics",
+       "details": "Fundamentals of Quantum Mechanics: Inadequacy of classical mechanics, de-Broglie concept of matter waves, Davisson and Germer experiment, wave packet, phase velocity, group velocity, Heisenberg’s uncertainty principle and its applications, time- dependent and time-independent Schrodinger wave equations, particle confined in one dimensional box, wave function and its physical interpretation.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "Quantum Theory of Solids",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Quantum Theory of Solids",
+       "details": "Quantum Theory of Solids: Free electron theory, Fermi-Dirac distribution, energy bands in solids, band gap, conductors, semiconductors and insulators, effective mass, density of states, intrinsic and extrinsic semiconductors, conductivity of semiconductors, Fermi level.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "Quantum Computing and Communication",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Quantum Computing and Communication",
+       "details": "Quantum Computing and Communication: Quantum computation, quantum states, quantum superposition, quantum entanglement, decoherence, quantum bits (qubits), physical realization of qubits (solid state qubits, photonics qubits), basics of quantum gates, single-qubit gate, multi-qubit gate, quantum cryptography, quantum key distribution (QKD).",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "Photonics Fiber optics · Laser",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Photonics Fiber optics",
+       "details": "Photonics Fiber optics: Fundamental idea about optical fiber, acceptance angle, acceptance cone, numerical aperture, principle of light propagation in optical fiber, attenuation and attenuation coefficient in fibre.",
+       "difficulty": "medium"
+      },
+      {
+       "name": "Laser",
+       "details": "Laser: Interaction of radiation with matter (absorption, spontaneous and stimulated emission), principle of laser operation, Einstein’s coefficients, Ruby laser, He-Ne laser, laser applications.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "Superconductors · Nano-materials",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Superconductors",
+       "details": "Superconductors: Temperature dependence of resistivity and critical field in superconducting materials, Meissner effect, Type I and Type II superconductors, persistent current, high temperature superconductors, properties, applications of superconductors.",
+       "difficulty": "medium"
+      },
+      {
+       "name": "Nano-materials",
+       "details": "Nano-materials: Introduction and properties of nano-materials, basic concept of quantum dots, quantum wires and quantum well, applications of nano-materials.",
+       "difficulty": "easy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "AAS202D",
+   "name": "Applied Chemistry for Smart Systems",
+   "semester": 2,
+   "scheme": "2026-27",
+   "source": "aktu_syllabus_1st_year.pdf",
+   "optional": true,
+   "units": [
+    {
+     "no": 1,
+     "title": "Chemistry of Hardware Materials for Computing and Electronic Devices",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Chemistry of Hardware Materials for Computing and Electronic Devices",
+       "details": "Chemistry of Hardware Materials for Computing and Electronic Devices: Introduction to materials used in computers and electronic devices; semiconductors and conductors; silicon and its properties; basic concepts of doping; printed circuit board (PCB) materials; soldering materials; insulating and dielectric materials; reliability and corrosion of electronic components.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "Energy Storage and Power Chemistry",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Energy Storage and Power Chemistry",
+       "details": "Energy Storage and Power Chemistry: Fundamentals of electrochemistry; primary and secondary batteries; lithium-ion batteries and their applications in laptops, mobiles and EVs; battery safety and charging principles; supercapacitors; fuel cells; introduction to energy harvesting materials and wireless charging technologies.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "Sensors and Chemical Detection",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Sensors and Chemical Detection",
+       "details": "Sensors and Chemical Detection: Principles of chemical sensing, electrochemical sensors (amperometric,",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "Nanomaterials and Functional Materials for Smart Systems",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Nanomaterials and Functional Materials for Smart Systems",
+       "details": "Nanomaterials and Functional Materials for Smart Systems: Introduction to nanotechnology; carbon nanotubes (CNTs); graphene; quantum dots; smart coatings; self-cleaning and hydrophobic surfaces; photochromic and thermochromic materials; shape- memory polymers; applications in flexible electronics and smart devices.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "Green Chemistry and E-waste Management",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Green Chemistry and E-waste Management",
+       "details": "Green Chemistry and E-waste Management: Principles of green chemistry; environmentally friendly electronic materials; biodegradable electronics; e-waste generation and hazards; recycling of electronic waste; recovery of valuable metals; RoHS and WEEE directives; sustainable manufacturing and circular economy in electronics.",
+       "difficulty": "medium"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "AAS204",
+   "name": "Introduction to Indian Knowledge System",
+   "semester": 2,
+   "scheme": "2026-27",
+   "source": "aktu_syllabus_1st_year.pdf",
+   "optional": true,
+   "units": [
+    {
+     "no": 1,
+     "title": "Foundations of the Indian Knowledge System Definition… · Schools of Indian Philosophy",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Foundations of the Indian Knowledge System Definition…",
+       "details": "Foundations of the Indian Knowledge System Definition, scope, characteristics and significance of IKS; the IKS vision of NEP 2020; the fourteen (Chaturdasha) Vidyasthanas — four Vedas, four Upavedas and six Vedangas;",
+       "difficulty": "medium"
+      },
+      {
+       "name": "Schools of Indian Philosophy",
+       "details": "Schools of Indian Philosophy: Orthodox and Heterodox Schools; Oral and Written Knowledge Systems, Knowledge validation (pramanas). Case study: relevance of IKS for a present-day engineer.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "Indian Mathematics, Astronomy and Scientific",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Indian Mathematics, Astronomy and Scientific",
+       "details": "Indian Mathematics, Astronomy and Scientific Thinking Number Systems: Decimal place-value system, zero and infinity; Bhutasankhya and Katapayadi numeration; Pingala’s Chandahshastra and binary representation; Sulbasutras; contributions of",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "Engineering, Technology and Material Sciences",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Engineering, Technology and Material Sciences",
+       "details": "Engineering, Technology and Material Sciences Metallurgy — Wootz steel, zinc distillation and the Delhi Iron Pillar; town planning and architecture (Harappan, Vastu and Shilpa Shastra); water management — stepwells, tanks and irrigation, textile engineering Case study: materials-science analysis of the Iron Pillar/ Architecture of Stupas",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "Health, Wellness, Environment and Governance",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Health, Wellness, Environment and Governance",
+       "details": "Health, Wellness, Environment and Governance Ayurveda (Charaka and Sushruta), Tridosha; Yoga (Patanjali’s Ashtanga) and wellness; environment and sustainability in Indian thought; governance and management — Kautilya’s Arthashastra; ethics from the Bhagavad Gita. Case study: Yoga for well-being / Arthashastra management principles/ Learnings from Geeta",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "Contemporary Relevance, AI and Applications of",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Contemporary Relevance, AI and Applications of",
+       "details": "Contemporary Relevance, AI and Applications of IKS Digital preservation (CSIR-TKDL, IKS Division) and IPR; Sanskrit and computational linguistics — Panini’s Ashtadhyayi, NLP and AI for ancient texts; IKS-inspired sustainable engineering and innovation. Case study: AI/NLP applied to a Sanskrit corpus.",
+       "difficulty": "medium"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "AAS205",
+   "name": "Professional Communication and Technical Writing",
+   "semester": 2,
+   "scheme": "2026-27",
+   "source": "aktu_syllabus_1st_year.pdf",
+   "optional": true,
+   "units": [
+    {
+     "no": 1,
+     "title": "Professional Communication and Workplace",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Professional Communication and Workplace",
+       "details": "Professional Communication and Workplace Readiness  Fundamentals of communication: definition, process, importance of communication barriers to communication, 7 C’s of communication  Business Correspondence : Emails, Notices, Agenda, Minutes of Meeting, Technical Report and proposal  Résumé, CV and Cover Letter Writing",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "Grammar and Vocabulary for Technical Writing",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Grammar and Vocabulary for Technical Writing",
+       "details": "Grammar and Vocabulary for Technical Writing  Parts of Speech and Sentence Structure  Common Grammatical Errors, Subject–Verb Agreement, Tenses, and Articles  Technical Vocabulary, Word Formation, and Precision in Language  Tone, Style, and Clarity in Technical English  Editing and Proofreading Techniques for Technical Writing  Grammar and Vocabulary Enhancement through Practical Writing Exercises Assignments/Activities  Edit and proofread a technical paragraph to improve grammar, vocabulary, precision, and clarity.",
+       "difficulty": "hard"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "Public Speaking, Presentation and AI-Assisted",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Public Speaking, Presentation and AI-Assisted",
+       "details": "Public Speaking, Presentation and AI-Assisted Communication  Public speaking technique: Modes, verbal, and non- verbal communication  Understating non-verbal Communication through the Natyashastra: Angika Abhinaya (Body Language: Posture, Gestures, Facial Expressions),Vachika Abhinaya (Voice Modulation and Speech Delivery) ,Sattvika Abhinaya (Expression of Emotions and Authentic Communication)  Presentation Planning and Delivery  Data Visualization and Slide Design  Elevator Pitch  AI Tools for Presentation Design and Speech Practice, prompt writing for effective communication  Ethical Use of AI in Communication Assignments/Activities  Deliver an individual presentation.  Prepare an AI-assisted presentation with proper citations.  Record and evaluate an elevator pitch.",
+       "difficulty": "hard"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "Emotional Intelligence and Critical Thinking for",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Emotional Intelligence and Critical Thinking for",
+       "details": "Emotional Intelligence and Critical Thinking for Workplace Communication  Emotional Intelligence through the Bhagavad Gita :Self-awareness ,Self-regulation ,Empathy, Emotional Balance  Critical Thinking through Indian Values and Logical Traditions: Nyaya (Logical Reasoning),Viveka (Discrimination and Judgment),  Value-based Decision Making  Ethical Problem Solving  Reflective Thinking in Professional Contexts Assignments/Activities  Case study analysis using value-based decision making.  Reflective journal on emotional intelligence.  Group discussion on workplace ethical dilemmas.",
+       "difficulty": "hard"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "Leadership, Workplace Well-being, and Mindful",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Leadership, Workplace Well-being, and Mindful",
+       "details": "Leadership, Workplace Well-being, and Mindful Communication  Leadership definition and types  Leadership Communication: Active Listening, Constructive Feedback, Teamwork, and Collaboration  Mental Health, Stress Management, and Work-Life Balance  Effective Communication through Yogic Practices: Yama as Principles of Ethical Communication Ahimsa – Respectful and Non-violent Communication, Satya – Truthfulness and Transparency, Asteya – Integrity and Honesty, Brahmacharya – Responsible and Balanced Communication, Aparigraha – Freedom from Ego, Bias, and Possessiveness. Niyama for Personal and Professional Growth, Shaucha – Clarity of Thought and Communication, Santosha – Contentment and Positive Workplace Relationships, Tapas – Self- discipline and Professional Commitment, Svadhyaya – Self-reflection and Continuous Learning ,Ishvara Pranidhana – Purpose, Humility, and Service-oriented Leadership  Storytelling through Panchatantra: The Lion and the Rabbit (Leadership and Strategic Communication), The Merchant's Iron Balance (Emotional Intelligence and Strategic Conflict Resolution), The Two Fish and the Frog (Leadership,",
+       "difficulty": "hard"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "AEC201A",
+   "name": "Fundamentals of Electronics Engineering",
+   "semester": 2,
+   "scheme": "2026-27",
+   "source": "aktu_syllabus_1st_year.pdf",
+   "optional": true,
+   "units": [
+    {
+     "no": 1,
+     "title": "Diodes and Power Supply Circuits",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Diodes and Power Supply Circuits",
+       "details": "Diodes and Power Supply Circuits: p-n junction — concept of depletion layer, forward and reverse bias; ideal diode vs real diode; V-I characteristics; diode as a switch; half-wave and full-wave bridge rectifier; filter capacitor; Zener diode — Zener breakdown, voltage regulator circuit; LED — working and current-limiting resistor; applications: USB charger rectifier, 5V/3.3V regulated supply for Arduino/Raspberry Pi, LED indicators in electronics products",
+       "difficulty": "hard"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "Transistors as Switches and Amplifiers",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Transistors as Switches and Amplifiers",
+       "details": "Transistors as Switches and Amplifiers: Bipolar Junction Transistor (BJT) — Construction & VI characteristics of BJT, NPN and PNP, three regions of operation (cut-off, active, saturation); BJT as a switch (digital control of relay, buzzer, motor); BJT as a common-emitter amplifier (concept and gain);",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "Operational Amplifier (Op-Amp)",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Operational Amplifier (Op-Amp)",
+       "details": "Operational Amplifier (Op-Amp): Ideal op-amp characteristics — infinite gain, infinite input impedance, zero output impedance; practical characteristics of 741 IC, inverting amplifier — voltage gain formula; non-inverting amplifier — gain formula; voltage follower (buffer); summing amplifier; comparator — op-amp as comparator, threshold detection; applications: sensor signal amplification (temperature, light, pressure), audio amplifier, automatic night lamp comparator circuit, differential amplifier for ECG/EEG front-end (concept)",
+       "difficulty": "hard"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "Digital Electronics Basics",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Digital Electronics Basics",
+       "details": "Digital Electronics Basics: Number systems — binary, decimal, hexadecimal (conversion only); logic levels (HIGH/LOW, 0/1); basic logic gates — AND, OR, NOT, NAND, NOR, XOR with truth tables; Boolean algebra — basic laws and De Morgan's theorems; k-map (upto 4 variables), half adder and full adder (truth table and logic diagram); multiplexer concept; flip-flop — SR and D flip-flop (concept only); applications: binary addition in CPU ALU, MUX in data routing, digital signals in microcontroller I/O, basics of PLA / PLD devices.",
+       "difficulty": "hard"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "Electronic Systems and Emerging Applications",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Electronic Systems and Emerging Applications",
+       "details": "Electronic Systems and Emerging Applications: Microcontroller overview — what is a microcontroller, GPIO pins, ADC- ADC types – digital ramp type & flash type ADC, PWM (concept only, not programming); communication interfaces — UART, SPI, I2C (what they do, not detailed protocol); sensors and signal chain — sensor → conditioning (op-amp) → ADC → microcontroller; wireless communication basics — Bluetooth, Wi-Fi, Zigbee (concept); power management in electronics — LDO regulator, DC-DC converter (concept); applications: IoT weather station, smart home sensor node,",
+       "difficulty": "hard"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "AEE201A",
+   "name": "Fundamentals of Electrical Engineering",
+   "semester": 2,
+   "scheme": "2026-27",
+   "source": "aktu_syllabus_1st_year.pdf",
+   "optional": true,
+   "units": [
+    {
+     "no": 1,
+     "title": "Unit I – Basic Electrical Quantities and DC",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Unit I – Basic Electrical Quantities and DC",
+       "details": "Unit I – Basic Electrical Quantities and DC Circuits: Electric charge, current, voltage, EMF, resistance; Ohm's law; resistors in series and parallel; voltage divider and current divider; power and energy in a DC circuit; Kirchhoff's Voltage Law (KVL) and Kirchhoff's Current Law (KCL); simple mesh and nodal analysis; Thevenin's theorem (concept and simple problem",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "AC Circuits",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "AC Circuits",
+       "details": "AC Circuits: Generation of AC voltage; sinusoidal waveform — peak, RMS, and average values; form factor; phasor representation (simple); AC through pure R, pure L, pure C; series RL and RC circuits; impedance; active power (P), reactive power (Q), apparent power (S); power factor (PF); power factor improvement using capacitors; measurement of power in single-phase AC circuit using wattmeter.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "Three-Phase Systems",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Three-Phase Systems",
+       "details": "Three-Phase Systems: Advantages of three-phase supply over single-phase; generation of balanced three-phase voltage; star (Y) and delta (Δ) connections; phase and line voltages and currents; power in balanced three-phase circuits; two- wattmeter method for power measurement; concept of neutral wire",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "Magnetic Circuits, Transformers",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Magnetic Circuits, Transformers",
+       "details": "Magnetic Circuits, Transformers: Magnetic flux, flux density, MMF, reluctance; simple series magnetic circuit; Faraday's law of electromagnetic induction; self-inductance and mutual inductance; principle of operation of single-phase transformer; EMF equation; ideal transformer — voltage ratio, current ratio, turns ratio; basic equivalent circuit of single phase transformer, losses (core and copper), efficiency",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "Electrical Machines and Emerging Electrical Systems",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Electrical Machines and Emerging Electrical Systems",
+       "details": "Electrical Machines and Emerging Electrical Systems: DC motor — principle, back EMF, torque, speed control concept; Types of DC motors and their application; BLDC motor — basic concept and applications , three-phase induction motor — rotating magnetic field, slip, torque; Application of three phase induction motors, introduction to solar photovoltaic (PV) system- Single diode model, current-voltage characteristics, PV characteristics, electrical safety in laboratory",
+       "difficulty": "hard"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "AME201A",
+   "name": "Fundamentals of Mechanical Engineering",
+   "semester": 2,
+   "scheme": "2026-27",
+   "source": "aktu_syllabus_1st_year.pdf",
+   "optional": true,
+   "units": [
+    {
+     "no": 1,
+     "title": "Engineering Mechanics and Strength of Materials (Basics) · Applications",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Engineering Mechanics and Strength of Materials (Basics)",
+       "details": "Engineering Mechanics and Strength of Materials (Basics): Types of forces and their effects; concept of stress and strain; beams — types of loads (point load, UDL), engineering materials — metals, polymers, ceramics, composites (properties and uses).",
+       "difficulty": "medium"
+      },
+      {
+       "name": "Applications",
+       "details": "Applications: frame of a laptop/server rack, load on a tower antenna, material selection for a robot arm, chassis of an electric vehicle.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "Thermodynamics and Heat Transfer Basics",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Thermodynamics and Heat Transfer Basics",
+       "details": "Thermodynamics and Heat Transfer Basics: System and surroundings; laws of thermodynamics; heat transfer — conduction, convection, radiation.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "Machine Elements and Power Transmission · Applications",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Machine Elements and Power Transmission",
+       "details": "Machine Elements and Power Transmission: Fasteners — bolts, screws, keys (types and use); shafts and couplings — rigid and flexible; bearings — ball bearing and roller bearing; belts and chains.",
+       "difficulty": "medium"
+      },
+      {
+       "name": "Applications",
+       "details": "Applications: gear train in a robotic joint, belt drive in a 3D printer, ball bearings in drone motor.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "Manufacturing Processes · Applications",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Manufacturing Processes",
+       "details": "Manufacturing Processes: Casting, forming, machining (drilling, milling, grinding), joining — soldering, brazing; additive manufacturing — 3D printing, CNC machining concept.",
+       "difficulty": "easy"
+      },
+      {
+       "name": "Applications",
+       "details": "Applications: 3D- printed drone frame, cast aluminium heat sink, welded server rack.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "Mechatronics, Robotics, and Emerging",
+     "weightage": 20,
+     "topics": [
+      {
+       "name": "Mechatronics, Robotics, and Emerging",
+       "details": "Mechatronics, Robotics, and Emerging Mechanical Systems: Introduction to mechatronics; actuators — DC motor, stepper motor, servo motor, hydraulic and pneumatic actuators, introduction to robotics (Cartesian, SCARA, articulated), drones — airframe, propulsion, flight controller concept and Industry 4.0.",
+       "difficulty": "medium"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "KCS301",
+   "name": "Data Structure",
+   "semester": 3,
+   "scheme": "2019-20",
+   "source": "aktu_syllabus_2nd_year.pdf",
+   "optional": false,
+   "units": [
+    {
+     "no": 1,
+     "title": "Introduction · Arrays · Linked lists",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Introduction",
+       "details": "Introduction: Basic Terminology, Elementary Data Organization, Built in Data Types in C. Algorithm, Efficiency of an Algorithm, Time and Space Complexity, Asymptotic notations: Big Oh, Big Theta and Big Omega, Time-Space trade-off. Abstract Data Types (ADT)",
+       "difficulty": "medium"
+      },
+      {
+       "name": "Arrays",
+       "details": "Arrays: Definition, Single and Multidimensional Arrays, Representation of Arrays: Row Major Order, and Column Major Order, Derivation of Index Formulae for 1-D,2-D,3-D and n-D Array Application of arrays, Sparse Matrices and their representations.",
+       "difficulty": "medium"
+      },
+      {
+       "name": "Linked lists",
+       "details": "Linked lists: Array Implementation and Pointer Implementation of Singly Linked Lists, Doubly Linked List, Circularly Linked List, Operations on a Linked List. Insertion, Deletion, Traversal, Polynomial Representation and Addition Subtraction & Multiplications of Single variable & Two variables Polynomial.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "Stacks · Queues",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Stacks",
+       "details": "Stacks: Abstract Data Type, Primitive Stack operations: Push & Pop, Array and Linked Implementation of Stack in C, Application of stack: Prefix and Postfix Expressions, Evaluation of postfix expression, Iteration and Recursion- Principles of recursion, Tail recursion, Removal of recursion Problem solving using iteration and recursion with examples such as binary search, Fibonacci numbers, and Hanoi towers. Tradeoffs between iteration and recursion.",
+       "difficulty": "hard"
+      },
+      {
+       "name": "Queues",
+       "details": "Queues: Operations on Queue: Create, Add, Delete, Full and Empty, Circular queues, Array and linked implementation of queues in C, Dequeue and Priority Queue.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "Searching · Sorting",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Searching",
+       "details": "Searching: Concept of Searching, Sequential search, Index Sequential Search, Binary Search. Concept of Hashing & Collision resolution Techniques used in Hashing.",
+       "difficulty": "easy"
+      },
+      {
+       "name": "Sorting",
+       "details": "Sorting: Insertion Sort, Selection, Bubble Sort, Quick Sort, Merge Sort, Heap Sort and Radix Sort.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "Graphs · Graph Traversal · Transitive Closure and Shortest Path algorithm",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Graphs",
+       "details": "Graphs: Terminology used with Graph, Data Structure for Graph Representations: Adjacency Matrices, Adjacency List, Adjacency.",
+       "difficulty": "easy"
+      },
+      {
+       "name": "Graph Traversal",
+       "details": "Graph Traversal: Depth First Search and Breadth First Search, Connected Component, Spanning Trees, Minimum Cost Spanning Trees: Prims and Kruskal algorithm.",
+       "difficulty": "easy"
+      },
+      {
+       "name": "Transitive Closure and Shortest Path algorithm",
+       "details": "Transitive Closure and Shortest Path algorithm: Warshal Algorithm and Dijikstra Algorithm.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "Trees",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Trees",
+       "details": "Trees: Basic terminology used with Tree, Binary Trees, Binary Tree Representation: Array Representation and Pointer(Linked List) Representation, Binary Search Tree, Strictly Binary Tree ,Complete Binary Tree . A Extended Binary Trees, Tree Traversal algorithms: Inorder, Preorder and Postorder, Constructing Binary Tree from given Tree Traversal, Operation of Insertation , Deletion, Searching & Modification of data in Binary Search . Threaded Binary trees, Traversing Threaded Binary trees. Huffman coding using Binary Tree. Concept & Basic Operations for AVL Tree , B Tree & Binary Heaps",
+       "difficulty": "hard"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "KCS302",
+   "name": "Computer Organization and Architecture",
+   "semester": 3,
+   "scheme": "2019-20",
+   "source": "aktu_syllabus_2nd_year.pdf",
+   "optional": false,
+   "units": [
+    {
+     "no": 1,
+     "title": "Introduction",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Introduction",
+       "details": "Introduction: Functional units of digital system and their interconnections, buses, bus architecture, types of buses and bus arbitration. Register, bus and memory transfer. Processor organization, general registers organization, stack organization and addressing modes.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "Arithmetic and logic unit · Multiplication",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Arithmetic and logic unit",
+       "details": "Arithmetic and logic unit: Look ahead carries adders.",
+       "difficulty": "easy"
+      },
+      {
+       "name": "Multiplication",
+       "details": "Multiplication: Signed operand multiplication, Booths algorithm and array multiplier. Division and logic operations. Floating point arithmetic operation, Arithmetic & logic unit design. IEEE Standard for Floating Point Numbers",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "Control Unit · Hardwire and micro programmed control",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Control Unit",
+       "details": "Control Unit: Instruction types, formats, instruction cycles and sub cycles (fetch and execute etc), micro operations, execution of a complete instruction. Program Control, Reduced Instruction Set Computer, Pipelining.",
+       "difficulty": "medium"
+      },
+      {
+       "name": "Hardwire and micro programmed control",
+       "details": "Hardwire and micro programmed control: micro programme sequencing, concept of horizontal and vertical microprogramming.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "Memory · Cache memories",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Memory",
+       "details": "Memory: Basic concept and hierarchy, semiconductor RAM memories, 2D & 2 1/2D memory organization. ROM memories.",
+       "difficulty": "easy"
+      },
+      {
+       "name": "Cache memories",
+       "details": "Cache memories: concept and design issues & performance, address mapping and replacement Auxiliary memories: magnetic disk, magnetic tape and optical disks Virtual memory: concept implementation.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "Input / Output · Modes of Data Transfer · Serial Communication",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Input / Output",
+       "details": "Input / Output: Peripheral devices, I/O interface, I/O ports, Interrupts: interrupt hardware, types of interrupts and exceptions.",
+       "difficulty": "easy"
+      },
+      {
+       "name": "Modes of Data Transfer",
+       "details": "Modes of Data Transfer: Programmed I/O, interrupt initiated I/O and Direct Memory Access., I/O channels and processors.",
+       "difficulty": "easy"
+      },
+      {
+       "name": "Serial Communication",
+       "details": "Serial Communication: Synchronous & asynchronous communication, standard communication interfaces.",
+       "difficulty": "easy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "KCS303",
+   "name": "Discrete Structures & Theory of Logic",
+   "semester": 3,
+   "scheme": "2019-20",
+   "source": "aktu_syllabus_2nd_year.pdf",
+   "optional": false,
+   "units": [
+    {
+     "no": 1,
+     "title": "Set Theory · Relations · Functions · Natural Numbers",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Set Theory",
+       "details": "Set Theory: Introduction, Combination of sets, Multisets, Ordered pairs. Proofs of some general identities on sets.",
+       "difficulty": "easy"
+      },
+      {
+       "name": "Relations",
+       "details": "Relations: Definition, Operations on relations, Properties of relations, Composite Relations, Equality of relations, Recursive definition of relation, Order of relations.",
+       "difficulty": "easy"
+      },
+      {
+       "name": "Functions",
+       "details": "Functions: Definition, Classification of functions, Operations on functions, Recursively defined functions. Growth of Functions.",
+       "difficulty": "easy"
+      },
+      {
+       "name": "Natural Numbers",
+       "details": "Natural Numbers: Introduction, Mathematical Induction, Variants of Induction, Induction with Nonzero Base cases. Proof Methods, Proof by counter – example, Proof by contradiction.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "Algebraic Structures",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Algebraic Structures",
+       "details": "Algebraic Structures: Definition, Groups, Subgroups and order, Cyclic Groups, Cosets, Lagrange's theorem, Normal Subgroups, Permutation and Symmetric groups, Group Homomorphisms, Definition and elementary properties of Rings and Fields.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "Lattices · Boolean Algebra",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Lattices",
+       "details": "Lattices: Definition, Properties of lattices – Bounded, Complemented, Modular and Complete lattice.",
+       "difficulty": "easy"
+      },
+      {
+       "name": "Boolean Algebra",
+       "details": "Boolean Algebra: Introduction, Axioms and Theorems of Boolean algebra, Algebraic manipulation of Boolean expressions. Simplification of Boolean Functions, Karnaugh maps, Logic gates, Digital circuits and Boolean algebra.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "Propositional Logic · Predicate Logic",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Propositional Logic",
+       "details": "Propositional Logic: Proposition, well formed formula, Truth tables, Tautology, Satisfiability, Contradiction, Algebra of proposition, Theory of Inference. (8)",
+       "difficulty": "easy"
+      },
+      {
+       "name": "Predicate Logic",
+       "details": "Predicate Logic: First order predicate, well formed formula of predicate, quantifiers, Inference theory of predicate logic.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "Trees · Graphs · Combinatorics",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Trees",
+       "details": "Trees: Definition, Binary tree, Binary tree traversal, Binary search tree.",
+       "difficulty": "easy"
+      },
+      {
+       "name": "Graphs",
+       "details": "Graphs: Definition and terminology, Representation of graphs, Multigraphs, Bipartite graphs, Planar graphs, Isomorphism and Homeomorphism of graphs, Euler and Hamiltonian paths, Graph coloring, Recurrence Relation & Generating function: Recursive definition of functions, Recursive algorithms, Method of solving recurrences.",
+       "difficulty": "medium"
+      },
+      {
+       "name": "Combinatorics",
+       "details": "Combinatorics: Introduction, Counting Techniques, Pigeonhole Principle",
+       "difficulty": "easy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "KCS401",
+   "name": "Operating systems",
+   "semester": 4,
+   "scheme": "2019-20",
+   "source": "aktu_syllabus_2nd_year.pdf",
+   "optional": false,
+   "units": [
+    {
+     "no": 1,
+     "title": "Introduction",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Introduction",
+       "details": "Introduction : Operating system and functions, Classification of Operating systems- Batch, Interactive, Time sharing, Real Time System, Multiprocessor Systems, Multiuser Systems, Multiprocess Systems, Multithreaded Systems, Operating System Structure- Layered structure, System Components, Operating System services, Reentrant Kernels, Monolithic and Microkernel Systems.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "Concurrent Processes",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Concurrent Processes",
+       "details": "Concurrent Processes: Process Concept, Principle of Concurrency, Producer / Consumer Problem, Mutual Exclusion, Critical Section Problem, Dekker’s solution, Peterson’s solution, Semaphores, Test and Set operation; Classical Problem in Concurrency- Dining Philosopher Problem, Sleeping Barber Problem; Inter Process Communication models and Schemes, Process generation.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "CPU Scheduling · Deadlock",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "CPU Scheduling",
+       "details": "CPU Scheduling: Scheduling Concepts, Performance Criteria, Process States, Process Transition Diagram, Schedulers, Process Control Block (PCB), Process address space, Process identification information, Threads and their management, Scheduling Algorithms, Multiprocessor Scheduling.",
+       "difficulty": "medium"
+      },
+      {
+       "name": "Deadlock",
+       "details": "Deadlock: System model, Deadlock characterization, Prevention, Avoidance and detection, Recovery from deadlock.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "Memory Management",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Memory Management",
+       "details": "Memory Management: Basic bare machine, Resident monitor, Multiprogramming with fixed partitions, Multiprogramming with variable partitions, Protection schemes, Paging, Segmentation, Paged segmentation, Virtual memory concepts, Demand paging, Performance of demand paging, Page replacement algorithms, Thrashing, Cache memory organization, Locality of reference.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "I/O Management and Disk Scheduling · File System",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "I/O Management and Disk Scheduling",
+       "details": "I/O Management and Disk Scheduling: I/O devices, and I/O subsystems, I/O buffering, Disk storage and disk scheduling, RAID.",
+       "difficulty": "easy"
+      },
+      {
+       "name": "File System",
+       "details": "File System: File concept, File organization and access mechanism, File directories, and File sharing, File system implementation issues, File system protection and security.",
+       "difficulty": "easy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "KCS402",
+   "name": "Theory of Automata and Formal Languages",
+   "semester": 4,
+   "scheme": "2019-20",
+   "source": "aktu_syllabus_2nd_year.pdf",
+   "optional": false,
+   "units": [
+    {
+     "no": 1,
+     "title": "Basic Concepts and Automata Theory",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Basic Concepts and Automata Theory",
+       "details": "Basic Concepts and Automata Theory: Introduction to Theory of Computation- Automata, Computability and Complexity, Alphabet, Symbol, String, Formal Languages, Deterministic Finite Automaton (DFA)- Definition, Representation, Acceptability of a String and Language, Non Deterministic Finite Automaton (NFA), Equivalence of DFA and NFA, NFA with ε-Transition, Equivalence of NFA’s with and without ε-Transition, Finite Automata with output- Moore Machine, Mealy Machine, Equivalence of Moore and Mealy Machine, Minimization of Finite Automata, Myhill-Nerode Theorem, Simulation of DFA and NFA",
+       "difficulty": "hard"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "Regular Expressions and Languages",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Regular Expressions and Languages",
+       "details": "Regular Expressions and Languages: Regular Expressions, Transition Graph, Kleen’s Theorem, Finite Automata and Regular Expression- Arden’s theorem, Algebraic Method Using Arden’s Theorem, Regular and Non-Regular Languages- Closure properties of Regular Languages, Pigeonhole Principle, Pumping Lemma, Application of Pumping Lemma, Decidability- Decision properties, Finite Automata and Regular Languages, Regular Languages and Computers, Simulation of Transition Graph and Regular language.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "Regular and Non-Regular Grammars",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Regular and Non-Regular Grammars",
+       "details": "Regular and Non-Regular Grammars: Context Free Grammar(CFG)-Definition, Derivations, Languages, Derivation Trees and Ambiguity, Regular Grammars-Right Linear and Left Linear grammars, Conversion of FA into CFG and Regular grammar into FA, Simplification of CFG, Normal Forms- Chomsky Normal Form(CNF), Greibach Normal Form (GNF), Chomsky Hierarchy, Programming problems based on the properties of CFGs.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "Push Down Automata and Properties of Context Free Languages",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Push Down Automata and Properties of Context Free Languages",
+       "details": "Push Down Automata and Properties of Context Free Languages: Nondeterministic Pushdown Automata (NPDA)- Definition, Moves, A Language Accepted by NPDA, Deterministic Pushdown Automata(DPDA) and Deterministic Context free Languages(DCFL), Pushdown Automata for Context Free Languages, Context Free grammars for Pushdown Automata, Two stack Pushdown Automata, Pumping Lemma for CFL, Closure properties of CFL, Decision Problems of CFL, Programming problems based on the properties of CFLs.",
+       "difficulty": "hard"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "Turing Machines and Recursive Function Theory",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Turing Machines and Recursive Function Theory",
+       "details": "Turing Machines and Recursive Function Theory : Basic Turing Machine Model, Representation of Turing Machines, Language Acceptability of Turing Machines, Techniques for Turing Machine Construction, Modifications of Turing Machine, Turing Machine as Computer of Integer Functions, Universal Turing machine, Linear Bounded Automata, Church’s Thesis, Recursive and Recursively Enumerable language, Halting Problem, Post’s Correspondance Problem, Introduction to Recursive Function Theory.",
+       "difficulty": "medium"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "KCS403",
+   "name": "Microprocessor",
+   "semester": 4,
+   "scheme": "2019-20",
+   "source": "aktu_syllabus_2nd_year.pdf",
+   "optional": false,
+   "units": [
+    {
+     "no": 1,
+     "title": "Microprocessor evolution and types, microprocessor…",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Microprocessor evolution and types, microprocessor…",
+       "details": "Microprocessor evolution and types, microprocessor architecture and operation of its components, addressing modes, interrupts, data transfer schemes, instruction and data flow, timer and timing diagram, Interfacing devices.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "Pin diagram and internal architecture of 8085… · Instruction formats Instruction Classification",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Pin diagram and internal architecture of 8085…",
+       "details": "Pin diagram and internal architecture of 8085 microprocessor, registers, ALU, Control & status, interrupt and machine cycle. Instruction sets. Addressing modes.",
+       "difficulty": "easy"
+      },
+      {
+       "name": "Instruction formats Instruction Classification",
+       "details": "Instruction formats Instruction Classification: data transfer, arithmetic operations, logical operations, branching operations, machine control and assembler directives.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "Architecture of 8086 microprocessor · Interrupts",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Architecture of 8086 microprocessor",
+       "details": "Architecture of 8086 microprocessor: register organization, bus interface unit, execution unit, memory addressing, and memory segmentation. Operating modes. Instruction sets, instruction format, Types of instructions.",
+       "difficulty": "easy"
+      },
+      {
+       "name": "Interrupts",
+       "details": "Interrupts: hardware and software interrupts.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "Assembly language programming based on intel 8085/8086",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Assembly language programming based on intel 8085/8086",
+       "details": "Assembly language programming based on intel 8085/8086. Instructions, data transfer, arithmetic, logic, branch operations, looping, counting, indexing, programming techniques, counters and time delays, stacks and subroutines, conditional call and return instructions",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "Peripheral Devices",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Peripheral Devices",
+       "details": "Peripheral Devices: 8237 DMA Controller, 8255 programmable peripheral interface, 8253/8254programmable timer/counter, 8259 programmable interrupt controller, 8251 USART and RS232C.",
+       "difficulty": "easy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "RCS-501",
+   "name": "Database Management Systems",
+   "semester": 5,
+   "scheme": "2018-19",
+   "source": "aktu_syllabus_3rd_year.pdf",
+   "optional": false,
+   "units": [
+    {
+     "no": 1,
+     "title": "Introduction · Data Modeling Using the Entity Relationship Model",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Introduction",
+       "details": "Introduction: Overview, Database System vs File System, Database System Concept and Architecture, Data Model Schema and Instances, Data Independence and Database Language and Interfaces, Data Definitions Language, DML, Overall Database Structure.",
+       "difficulty": "medium"
+      },
+      {
+       "name": "Data Modeling Using the Entity Relationship Model",
+       "details": "Data Modeling Using the Entity Relationship Model: ER Model Concepts, Notation for ER Diagram, Mapping Constraints, Keys, Concepts of Super Key, Candidate Key, Primary Key, Generalization, Aggregation, Reduction of an ER Diagrams to Tables, Extended ER Model, Relationship of Higher Degree.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "Relational data Model and Language · Introduction on SQL",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Relational data Model and Language",
+       "details": "Relational data Model and Language: Relational Data Model Concepts, Integrity Constraints, Entity Integrity, Referential Integrity, Keys Constraints, Domain Constraints, Relational Algebra, Relational Calculus, Tuple and Domain Calculus.",
+       "difficulty": "medium"
+      },
+      {
+       "name": "Introduction on SQL",
+       "details": "Introduction on SQL: Characteristics of SQL, Advantage of SQL. SQl Data Type and Literals. Types of SQL Commands. SQL Operators and Their Procedure. Tables, Views and Indexes. Queries and Sub Queries. Aggregate Functions. Insert, Update and Delete Operations, Joins, Unions, Intersection, Minus, Cursors, Triggers, Procedures in SQL/PL SQL",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "Data Base Design & Normalization",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Data Base Design & Normalization",
+       "details": "Data Base Design & Normalization: Functional dependencies, normal forms, first, second, 8 third normal forms, BCNF, inclusion dependence, loss less join decompositions, normalization using FD, MVD, and JDs, alternative approaches to database design",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "Transaction Processing Concept · Distributed Database",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Transaction Processing Concept",
+       "details": "Transaction Processing Concept: Transaction System, Testing of Serializability, Serializability of Schedules, Conflict & View Serializable Schedule, Recoverability, Recovery from Transaction Failures, Log Based Recovery, Checkpoints, Deadlock Handling.",
+       "difficulty": "medium"
+      },
+      {
+       "name": "Distributed Database",
+       "details": "Distributed Database: Distributed Data Storage, Concurrency Control, Directory System.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "Concurrency Control Techniques",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Concurrency Control Techniques",
+       "details": "Concurrency Control Techniques: Concurrency Control, Locking Techniques for Concurrency Control, Time Stamping Protocols for Concurrency Control, Validation Based Protocol, Multiple Granularity, Multi Version Schemes, Recovery with Concurrent Transaction, Case Study of Oracle.",
+       "difficulty": "medium"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "RCS-502",
+   "name": "Design and Analysis of Algorithm",
+   "semester": 5,
+   "scheme": "2018-19",
+   "source": "aktu_syllabus_3rd_year.pdf",
+   "optional": false,
+   "units": [
+    {
+     "no": 1,
+     "title": "Introduction",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Introduction",
+       "details": "Introduction: Algorithms, Analyzing Algorithms, Complexity of Algorithms, Growth of Functions, Performance Measurements, Sorting and Order Statistics - Shell Sort, Quick Sort, Merge Sort, Heap Sort, Comparison of Sorting Algorithms, Sorting in Linear Time.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "Advanced Data Structures",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Advanced Data Structures",
+       "details": "Advanced Data Structures: Red-Black Trees, B – Trees, Binomial Heaps, Fibonacci Heaps, Tries, Skip List",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "Divide and Conquer with Examples Such as Sorting, Matrix…",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Divide and Conquer with Examples Such as Sorting, Matrix…",
+       "details": "Divide and Conquer with Examples Such as Sorting, Matrix Multiplication, Convex Hull and Searching. Greedy Methods with Examples Such as Optimal Reliability Allocation, Knapsack, Minimum Spanning Trees – Prim’s and Kruskal’s Algorithms, Single Source Shortest Paths -Dijkstra’s and Bellman Ford Algorithms.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "Dynamic Programming with Examples Such as Knapsack",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Dynamic Programming with Examples Such as Knapsack",
+       "details": "Dynamic Programming with Examples Such as Knapsack. All Pair Shortest Paths – Warshal’s and Floyd’s Algorithms, Resource Allocation Problem. Backtracking, Branch and Bound with Examples Such as Travelling Salesman Problem, Graph Coloring, n-Queen Problem, Hamiltonian Cycles and Sum of Subsets.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "Selected Topics",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Selected Topics",
+       "details": "Selected Topics: Algebraic Computation, Fast Fourier Transform, String Matching, Theory of NP-Completeness, Approximation Algorithms and Randomized Algorithms",
+       "difficulty": "easy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "RCS-503",
+   "name": "Principles of Programming Languages",
+   "semester": 5,
+   "scheme": "2018-19",
+   "source": "aktu_syllabus_3rd_year.pdf",
+   "optional": false,
+   "units": [
+    {
+     "no": 1,
+     "title": "Introduction",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Introduction",
+       "details": "Introduction: Role of Programming Languages: Why Programming Languages, Towards Higher-Level Languages, Programming Paradigms, Programming Environments Language Description: Syntactic Structure, Language Translation Issues: Programming Language Syntax, Stages in Translation, Formal Translation Models",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "Data, Data Types, and Basic Statements",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Data, Data Types, and Basic Statements",
+       "details": "Data, Data Types, and Basic Statements : Names , Variables , Binding, Type Checking,",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "Subprograms and Implementations",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Subprograms and Implementations",
+       "details": "Subprograms and Implementations : Subprograms, Design Issues, Local Referencing,",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "Object-Orientation, Concurrency, and Event Handling",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Object-Orientation, Concurrency, and Event Handling",
+       "details": "Object-Orientation, Concurrency, and Event Handling : Grouping of Data and",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "Functional and Logic Programming Languages",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Functional and Logic Programming Languages",
+       "details": "Functional and Logic Programming Languages : Introduction to Lambda Calculus ,",
+       "difficulty": "easy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "RCS-051",
+   "name": "Operation Research (Dept. Elective-1)",
+   "semester": 5,
+   "scheme": "2018-19",
+   "source": "aktu_syllabus_3rd_year.pdf",
+   "optional": true,
+   "units": [
+    {
+     "no": 1,
+     "title": "Definition and Scope of Operations Research (OR), OR Model… · Linear Programming",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Definition and Scope of Operations Research (OR), OR Model…",
+       "details": "Definition and Scope of Operations Research (OR), OR Model, Solving the OR Model, Art of Modelling, Phases of OR Study.",
+       "difficulty": "easy"
+      },
+      {
+       "name": "Linear Programming",
+       "details": "Linear Programming: Two Variable Linear Programming Model and Graphical Method of Solution, Simplex Method, Dual Simplex Method, Special Cases of Linear Programming, Duality, Sensitivity Analysis.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "Transportation Problems",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Transportation Problems",
+       "details": "Transportation Problems: Types of Transportation Problems, Mathematical Models, Transportation Algorithms, Assignment: Allocation and Assignment Problems and Models, Processing of Job through Machines.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "Network Techniques · Project Management",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Network Techniques",
+       "details": "Network Techniques: Shortest Path Model, Minimum Spanning Tree Problem, Max‐Flow Problem and Min‐Cost Problem.",
+       "difficulty": "easy"
+      },
+      {
+       "name": "Project Management",
+       "details": "Project Management: Phases of Project Management, Guidelines for Network Construction, CPM and PERT.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "Theory of Games · Quality Systems",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Theory of Games",
+       "details": "Theory of Games : Rectangular Games, Minimax Theorem, Graphical Solution of 2 x n or m x 2 Games, Game with Mixed Strategies, Reduction to Linear Programming Model.",
+       "difficulty": "medium"
+      },
+      {
+       "name": "Quality Systems",
+       "details": "Quality Systems: Elements of Queuing Model, Generalized Poisson Queuing Model, Single Server Models.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "Control · Replacement Models",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Control",
+       "details": "Control: Models of Inventory, Operation of Inventory System, Quantity Discount.",
+       "difficulty": "easy"
+      },
+      {
+       "name": "Replacement Models",
+       "details": "Replacement Models: Equipment’s that Deteriorate with Time, Equipment’s that Fail with Time.",
+       "difficulty": "easy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "RCS-052",
+   "name": "Web Technologies (Dept. Elective-1)",
+   "semester": 5,
+   "scheme": "2018-19",
+   "source": "aktu_syllabus_3rd_year.pdf",
+   "optional": true,
+   "units": [
+    {
+     "no": 1,
+     "title": "Introduction · Core Java",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Introduction",
+       "details": "Introduction: Introduction and Web Development Strategies, History of Web and Internet, Protocols Governing Web, Writing Web Projects, Connecting to Internet, Introduction to Internet services and tools, Introduction to client-server computing.",
+       "difficulty": "medium"
+      },
+      {
+       "name": "Core Java",
+       "details": "Core Java: Introduction, Operator, Data type, Variable, Arrays, Methods & Classes, Inheritance, Package and Interface, Exception Handling, Multithread programming, I/O, Java Applet, String handling, Event handling, Introduction to AWT, AWT controls, Layout managers",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "Web Page Designing",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Web Page Designing",
+       "details": "Web Page Designing: HTML: List, Table, Images, Frames, forms, CSS, Document type definition, XML: DTD, XML schemes, Object Models, presenting and using XML, Using XML Processors: DOM and SAX, Dynamic HTML",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "Scripting",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Scripting",
+       "details": "Scripting: Java script: Introduction, documents, forms, statements, functions, objects; introduction to AJAX, Networking : Internet Addressing, InetAddress, Factory Methods, Instance Methods, TCP/IP Client Sockets, URL, URL Connection, TCP/IP Server Sockets, Datagram.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "Enterprise Java Bean",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Enterprise Java Bean",
+       "details": "Enterprise Java Bean: Preparing a Class to be a JavaBeans, Creating a JavaBeans, JavaBeans",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "Servlets",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Servlets",
+       "details": "Servlets: Servlet Overview and Architecture, Interface Servlet and the Servlet Life Cycle, H",
+       "difficulty": "easy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "RIT-051",
+   "name": "Software Project Management (Dept. Elective-1)",
+   "semester": 5,
+   "scheme": "2018-19",
+   "source": "aktu_syllabus_3rd_year.pdf",
+   "optional": true,
+   "units": [
+    {
+     "no": 1,
+     "title": "Introduction and Software Project Planning",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Introduction and Software Project Planning",
+       "details": "Introduction and Software Project Planning: Fundamentals of Software Project Management (SPM), Need Identification, Vision and Scope Document, Project Management Cycle, SPM Objectives, Management Spectrum, SPM Framework, Software Project Planning, Planning Objectives, Project Plan, Types of Project Plan, Structure of a Software Project Management Plan, Software Project Estimation, Estimation Methods, Estimation Models, Decision Process.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "Project Organization and Scheduling Project Elements",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Project Organization and Scheduling Project Elements",
+       "details": "Project Organization and Scheduling Project Elements: Work Breakdown Structure (WBS), Types of WBS, Functions, Activities and Tasks, Project Life Cycle and Product Life Cycle, Ways to Organize Personnel, Project Schedule, Scheduling Objectives, Building the Project Schedule, Scheduling Terminology and Techniques, Network Diagrams: PERT, CPM, Bar Charts: Milestone Charts, Gantt Charts",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "Project Monitoring and Control",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Project Monitoring and Control",
+       "details": "Project Monitoring and Control: Dimensions of Project Monitoring & Control, Earned Value Analysis, Earned Value Indicators: Budgeted Cost for Work Scheduled (BCWS), Cost Variance (CV), Schedule Variance (SV), Cost Performance Index (CPI), Schedule Performance Index (SPI), Interpretation of Earned Value Indicators, Error Tracking, Software Reviews, Types of Review: Inspections, Deskchecks, Walkthroughs, Code Reviews, Pair Programming.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "Software Quality Assurance and Testing Objectives",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Software Quality Assurance and Testing Objectives",
+       "details": "Software Quality Assurance and Testing Objectives: Testing Principles, Test Plans, Test Cases, Types of Testing, Levels of Testing, Test Strategies, Program Correctness, Program Verification & Validation, Testing Automation & Testing Tools, Concept of Software Quality, Software Quality Attributes, Software Quality Metrics and Indicators, The SEI Capability Maturity Model CMM), SQA Activities, Formal SQA Approaches: Proof of Correctness, Statistical Quality Assurance, Cleanroom Process.",
+       "difficulty": "hard"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "Project Management and Project Management Tools Software…",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Project Management and Project Management Tools Software…",
+       "details": "Project Management and Project Management Tools Software Configuration Management: Software Configuration Items and Tasks, Baselines, Plan for Change, Change Control, Change Requests Management, Version Control, Risk Management: Risks and Risk Types, Risk Breakdown Structure (RBS), Risk Management Process: Risk Identification, Risk Analysis, Risk Planning, Risk Monitoring, Cost Benefit Analysis, Software Project Management Tools: CASE Tools, Planning and Scheduling Tools, MS-Project.",
+       "difficulty": "medium"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "RIT-052",
+   "name": "Software Testing & Audit (Dept. Elective-1)",
+   "semester": 5,
+   "scheme": "2018-19",
+   "source": "aktu_syllabus_3rd_year.pdf",
+   "optional": true,
+   "units": [
+    {
+     "no": 1,
+     "title": "Review of Software Engineering · Verification",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Review of Software Engineering",
+       "details": "Review of Software Engineering: Overview of Software Evolution, SDLC, Testing Process, Terminologies in Testing: Error, Fault, Failure, Verification, Validation, Difference Between Verification and Validation, Test Cases, Testing Suite, Test ,Oracles, Impracticality of Testing All Data; Impracticality of Testing AllPaths.",
+       "difficulty": "medium"
+      },
+      {
+       "name": "Verification",
+       "details": "Verification: Verification Methods, SRS Verification, Source Code Reviews, User Documentation Verification, Software, Project Audit, Tailoring Software Quality Assurance Program by Reviews, Walkthrough, Inspection and Configuration Audits.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "Functional Testing · Structural Testing",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Functional Testing",
+       "details": "Functional Testing: Boundary Value Analysis, Equivalence Class Testing, Decision Table Based Testing, Cause Effect Graphing Technique.",
+       "difficulty": "easy"
+      },
+      {
+       "name": "Structural Testing",
+       "details": "Structural Testing: Control Flow Testing, Path Testing, Independent Paths, Generation of Graph from Program, Identification of Independent Paths, Cyclomatic Complexity, Data Flow Testing, Mutation Testing",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "Regression Testing · Reducing the number of test cases",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Regression Testing",
+       "details": "Regression Testing: What is Regression Testing? Regression Test cases selection, Reducing the number of test cases, Code coverage prioritization technique.",
+       "difficulty": "easy"
+      },
+      {
+       "name": "Reducing the number of test cases",
+       "details": "Reducing the number of test cases: Prioritization guidelines, Priority category, Scheme, Risk Analysis.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "Software Testing Activities",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Software Testing Activities",
+       "details": "Software Testing Activities: Levels of Testing, Debugging, Testing techniques and their applicability, Exploratory Testing Automated Test Data Generation: Test Data, Approaches to test data generation, test data generation using genetic algorithm, Test Data Generation Tools, Software Testing Tools, and Software test Plan.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "Object Oriented Testing · Testing Web Applications",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Object Oriented Testing",
+       "details": "Object Oriented Testing: Definition, Issues, Class Testing, Object Oriented Integration and System Testing.",
+       "difficulty": "easy"
+      },
+      {
+       "name": "Testing Web Applications",
+       "details": "Testing Web Applications: Web Testing, User Interface Testing, Usability Testing, Security Testing, Performance Testing, Database testing, Post Deployment Testing.",
+       "difficulty": "easy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "RCS-601",
+   "name": "Computer Networks",
+   "semester": 6,
+   "scheme": "2018-19",
+   "source": "aktu_syllabus_3rd_year.pdf",
+   "optional": false,
+   "units": [
+    {
+     "no": 1,
+     "title": "Introduction Concepts",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Introduction Concepts",
+       "details": "Introduction Concepts: Goals and Applications of Networks, Network structure and architecture, The OSI reference model, services, Network Topology Design - Delay Analysis, Back Bone Design, Local Access Network Design, Physical Layer Transmission Media, Switching methods, ISDN, Terminal Handling",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "Medium Access sub layer",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Medium Access sub layer",
+       "details": "Medium Access sub layer: Medium Access sub layer - Channel Allocations, LAN protocols - ALOHA protocols - Overview of IEEE standards - FDDI. Data Link Layer - Elementary Data Link Protocols, Sliding Window protocols, Error Handling.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "Network Layer",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Network Layer",
+       "details": "Network Layer: Network Layer - Point - to Pont Networks, routing, Congestion control Internetworking -TCP / IP, IP packet, IP address, IPv6.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "Transport Layer",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Transport Layer",
+       "details": "Transport Layer: Transport Layer - Design issues, connection management, session Layer-Design issues, remote procedure call. Presentation Layer-Design issues, Data compression techniques, cryptography - TCP - Window Management.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "Application Layer",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Application Layer",
+       "details": "Application Layer: Application Layer: File Transfer, Access and Management, Electronic mail, Virtual Terminals, Other application. Example Networks - Internet and Public Networks",
+       "difficulty": "easy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "RCS-602",
+   "name": "Compiler Design",
+   "semester": 6,
+   "scheme": "2018-19",
+   "source": "aktu_syllabus_3rd_year.pdf",
+   "optional": false,
+   "units": [
+    {
+     "no": 1,
+     "title": "Introduction to Compiler · The syntactic specification of programming languages",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Introduction to Compiler",
+       "details": "Introduction to Compiler: Phases and passes, Bootstrapping, Finite state machines and regular expressions and their applications to lexical analysis, Optimization of DFA-Based Pattern Matchers implementation of lexical analyzers, lexical-analyzer generator, LEX compiler, Formal grammars and their application to syntax analysis, BNF notation, ambiguity, YACC.",
+       "difficulty": "medium"
+      },
+      {
+       "name": "The syntactic specification of programming languages",
+       "details": "The syntactic specification of programming languages: Context free grammars, derivation and parse trees, capabilities of CFG.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "Basic Parsing Techniques",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Basic Parsing Techniques",
+       "details": "Basic Parsing Techniques: Parsers, Shift reduce parsing, operator precedence parsing, top down parsing, predictive parsers Automatic Construction of efficient Parsers: LR parsers, the canonical Collection of LR(0) items, constructing SLR parsing tables, constructing Canonical LR parsing tables, Constructing LALR parsing tables, using ambiguous grammars, an automatic parser generator, implementation of LR parsing tables.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "Syntax-directed Translation · More about translation",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Syntax-directed Translation",
+       "details": "Syntax-directed Translation: Syntax-directed Translation schemes, Implementation of Syntax-directed Translators, Intermediate code, postfix notation, Parse trees & syntax trees, three address code, quadruple & triples, translation of assignment statements, Boolean expressions, statements that alter the flow of control, postfix translation, translation with a top down parser.",
+       "difficulty": "medium"
+      },
+      {
+       "name": "More about translation",
+       "details": "More about translation: Array references in arithmetic expressions, procedures call, declarations and case statements.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "Symbol Tables · Run- Time Administration · Error Detection & Recovery",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Symbol Tables",
+       "details": "Symbol Tables: Data structure for symbols tables, representing scope information.",
+       "difficulty": "easy"
+      },
+      {
+       "name": "Run- Time Administration",
+       "details": "Run- Time Administration: Implementation of simple stack allocation scheme, storage allocation in block structured language.",
+       "difficulty": "easy"
+      },
+      {
+       "name": "Error Detection & Recovery",
+       "details": "Error Detection & Recovery: Lexical Phase errors, syntactic phase errors semantic errors.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "Code Generation · Code optimization",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Code Generation",
+       "details": "Code Generation: Design Issues, the Target Language. Addresses in the Target Code, Basic Blocks and Flow Graphs, Optimization of Basic Blocks, Code Generator.",
+       "difficulty": "easy"
+      },
+      {
+       "name": "Code optimization",
+       "details": "Code optimization: Machine-Independent Optimizations, Loop optimization, DAG representation of basic blocks, value numbers and algebraic laws, Global Data-Flow analysis.",
+       "difficulty": "easy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "RCS-603",
+   "name": "Computer Graphics",
+   "semester": 6,
+   "scheme": "2018-19",
+   "source": "aktu_syllabus_3rd_year.pdf",
+   "optional": false,
+   "units": [
+    {
+     "no": 1,
+     "title": "Introduction and Line Generation",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Introduction and Line Generation",
+       "details": "Introduction and Line Generation: Types of computer graphics, Graphic Displays- Random scan displays, Raster scan displays, Frame buffer and video controller, Points and lines, Line drawing algorithms, Circle generating algorithms, Mid-point circle generating algorithm, and parallel version of these algorithms.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "Transformations · Windowing and Clipping",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Transformations",
+       "details": "Transformations: Basic transformation, Matrix representations and homogenous coordinates, Composite transformations, Reflections and shearing.",
+       "difficulty": "easy"
+      },
+      {
+       "name": "Windowing and Clipping",
+       "details": "Windowing and Clipping: Viewing pipeline, Viewing transformations, 2-D Clipping algorithms- Line clipping algorithms such as Cohen Sutherland line clipping algorithm, Liang Barsky algorithm, Line clipping against non rectangular clip windows; Polygon clipping – Sutherland Hodgeman polygon clipping, Weiler and Atherton polygon clipping, Curve clipping, Text clipping",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "Three Dimensional",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Three Dimensional",
+       "details": "Three Dimensional: 3-D Geometric Primitives, 3-D Object representation, 3-D Transformation, 3-D viewing, projections, 3-D Clipping.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "Curves and Surfaces",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Curves and Surfaces",
+       "details": "Curves and Surfaces: Quadric surfaces, Spheres, Ellipsoid, Blobby objects, Introductory concepts of Spline, Bspline and Bezier curves and surfaces.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "Hidden Lines and Surfaces",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Hidden Lines and Surfaces",
+       "details": "Hidden Lines and Surfaces: Back Face Detection algorithm, Depth buffer method, A- buffer method, Scan line method, basic illumination models– Ambient light, Diffuse reflection, Specular reflection and Phong model, Combined approach, Warn model, Intensity Attenuation, Color consideration, Transparency and Shadows.",
+       "difficulty": "medium"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "RCS-061",
+   "name": "Internet of Things (Dept. Elective-2)",
+   "semester": 6,
+   "scheme": "2018-19",
+   "source": "aktu_syllabus_3rd_year.pdf",
+   "optional": true,
+   "units": [
+    {
+     "no": 1,
+     "title": "Internet of Things (IoT) · Design Principles for Connected Devices",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Internet of Things (IoT)",
+       "details": "Internet of Things (IoT): Vision, Definition, Conceptual Framework, Architectural view, technology behind IoT, Sources of the IoT, M2M Communication, IoT Examples .",
+       "difficulty": "easy"
+      },
+      {
+       "name": "Design Principles for Connected Devices",
+       "details": "Design Principles for Connected Devices: IoT/M2M systems layers and design standardization, communication technologies, data enrichment and consolidation, ease of designing and affordability.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "Hardware for IoT · Embedded Platforms for IoT",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Hardware for IoT",
+       "details": "Hardware for IoT: Sensors, digital sensors, actuators, radio frequency identification (RFID) technology, wireless sensor networks, participatory sensing technology.",
+       "difficulty": "easy"
+      },
+      {
+       "name": "Embedded Platforms for IoT",
+       "details": "Embedded Platforms for IoT: Embedded computing basics, Overview of IOT supported Hardware platforms such as Arduino, NetArduino, Raspberry pi, Beagle Bone, Intel Galileo boards and ARM cortex.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "Network & Communication Aspects in IoT",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Network & Communication Aspects in IoT",
+       "details": "Network & Communication Aspects in IoT: Wireless medium access issues, MAC protocol survey, Survey routing protocols, Sensor deployment & Node discovery, Data aggregation & dissemination",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "Programming the Ardunio",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Programming the Ardunio",
+       "details": "Programming the Ardunio: Ardunio platform boards anatomy, ardunio IDE, coding, using emulator, using libraries, additions in ardunio, programming the ardunio for IoT.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "Challenges in IoT Design Challenges",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Challenges in IoT Design Challenges",
+       "details": "Challenges in IoT Design Challenges: Development challenges, Security challenges, Other challenges IoT Applications : Smart metering, e-health, city automation, automotive applications, home automation, smart cards, Communicating data with H/W units, mobiles, tablets, Designing of smart street lights in smart city.",
+       "difficulty": "medium"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "RCS-062",
+   "name": "Neural Network (Dept. Elective-2)",
+   "semester": 6,
+   "scheme": "2018-19",
+   "source": "aktu_syllabus_3rd_year.pdf",
+   "optional": true,
+   "units": [
+    {
+     "no": 1,
+     "title": "Neuro Computing and Neuroscience · Learning process",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Neuro Computing and Neuroscience",
+       "details": "Neuro Computing and Neuroscience: Historical notes, human Brain, neuron Mode l, Knowledge representation, Al and NN.",
+       "difficulty": "easy"
+      },
+      {
+       "name": "Learning process",
+       "details": "Learning process: Supervised and unsupervised learning, Error correction learning, competitive learning, adaptation, statistical nature of the learning process.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "Data Processing Scaling",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Data Processing Scaling",
+       "details": "Data Processing Scaling: Normalization, Transformation (FT/FFT), principal component analysis, regression, co-variance matrix, Eigen values & Eigen vectors. Basic Models of Artificial neurons, activation Functions, aggregation function, single neuron computation, multilayer perception, least mean square algorithm, gradient descent rule, nonlinearly separable problems and bench mark problems in NN.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "Multilayered Network Architecture",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Multilayered Network Architecture",
+       "details": "Multilayered Network Architecture: Back propagation algorithm, heuristics for making BP-algorithm performs better. Accelerated learning BP (like recursive least square, quick prop, RPROP algorithm), approximation properties of RBF networks and comparison with multilayer perceptron.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "Recurrent Network and Temporal Feed-Forward Network",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Recurrent Network and Temporal Feed-Forward Network",
+       "details": "Recurrent Network and Temporal Feed-Forward Network: Implementation with BP, self-Organizing map and SOM algorithm, properties of feature map and computer simulation. Principal component and Independent component analysis, application to image and signal processing",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "Complex Valued NN and Complex Valued BP",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Complex Valued NN and Complex Valued BP",
+       "details": "Complex Valued NN and Complex Valued BP: Analyticity of activation function, application in 2D information processing. Complexity analysis of network models. Soft computing. Neuro-Fuzzy-genetic algorithm Integration",
+       "difficulty": "medium"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "RIT-061",
+   "name": "Design and Development of Applications (Dept. Elective-2)",
+   "semester": 6,
+   "scheme": "2018-19",
+   "source": "aktu_syllabus_3rd_year.pdf",
+   "optional": true,
+   "units": [
+    {
+     "no": 1,
+     "title": "INTRODUCTION",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "INTRODUCTION",
+       "details": "INTRODUCTION: Introduction to mobile applications – Embedded systems - Market and business drivers for mobile applications – Publishing and delivery of mobile applications – Requirements gathering and validation for mobile applications",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "BASIC DESIGN",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "BASIC DESIGN",
+       "details": "BASIC DESIGN: Introduction – Basics of embedded systems design – Embedded OS - Design constraints for mobile applications, both hardware and software related – Architecting mobile applications – User interfaces for mobile applications – touch events and gestures – Achieving quality constraints – performance, usability, security, availability and modifiability.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "ADVANCED DESIGN",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "ADVANCED DESIGN",
+       "details": "ADVANCED DESIGN: Designing applications with multimedia and web access capabilities – Integration with GPS and social media networking applications – Accessing applications hosted in a cloud computing environment – Design patterns for mobile applications.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "TECHNOLOGY I – ANDROID",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "TECHNOLOGY I – ANDROID",
+       "details": "TECHNOLOGY I – ANDROID: Introduction – Establishing the development environment – Android architecture – Activities and views – Interacting with UI – Persisting data using SQLite – Packaging and deployment – Interaction with server side applications – Using Google Maps, GPS and Wi-Fi – Integration with social media applications.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "TECHNOLOGY II – iOS · Swift",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "TECHNOLOGY II – iOS",
+       "details": "TECHNOLOGY II – iOS: Introduction to Objective C – iOS features – UI implementation – Touch frameworks – Data persistence using Core Data and SQLite – Location aware applications using Core Location and Map Kit – Integrating calendar and address book with social media application – Using Wi-Fi - iPhone marketplace.",
+       "difficulty": "medium"
+      },
+      {
+       "name": "Swift",
+       "details": "Swift: Introduction to Swift, features of swift.",
+       "difficulty": "easy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "RIT-062",
+   "name": "Datawarehousing & Data Mining (Dept. Elective-2)",
+   "semester": 6,
+   "scheme": "2018-19",
+   "source": "aktu_syllabus_3rd_year.pdf",
+   "optional": true,
+   "units": [
+    {
+     "no": 1,
+     "title": "Data Warehousing",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Data Warehousing",
+       "details": "Data Warehousing: Overview, Definition, Data Warehousing Components, Building a Data Warehouse, Warehouse Database, Mapping the Data Warehouse to a Multiprocessor Architecture, Difference between Database System and Data Warehouse, Multi Dimensional Data Model, Data Cubes, Stars, Snow Flakes, Fact Constellations, Concept",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "Data Warehouse Process and Technology",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Data Warehouse Process and Technology",
+       "details": "Data Warehouse Process and Technology: Warehousing Strategy, Warehouse /management and Support Processes, Warehouse Planning and Implementation, Hardware and Operating Systems for Data Warehousing, Client/Server Computing Model & Data Warehousing. Parallel Processors & Cluster Systems, Distributed DBMS implementations, Warehousing Software, Warehouse Schema Design,",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "Data Mining",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Data Mining",
+       "details": "Data Mining: Overview, Motivation, Definition & Functionalities, Data Processing, Form of Data Pre-processing, Data Cleaning: Missing Values, Noisy Data, (Binning, Clustering, Regression, Computer and Human inspection), Inconsistent Data, Data Integration and Transformation. Data Reduction:-Data Cube Aggregation, Dimensionality reduction, Data Compression, Numerosity Reduction, Discretization and Concept hierarchy generation, Decision Tree.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "Classification · Clustering",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Classification",
+       "details": "Classification: Definition, Data Generalization, Analytical Characterization, Analysis of attribute relevance, Mining Class comparisons, Statistical measures in large Databases, Statistical-Based Algorithms, Distance-Based Algorithms, Decision Tree-Based Algorithms.",
+       "difficulty": "easy"
+      },
+      {
+       "name": "Clustering",
+       "details": "Clustering: Introduction, Similarity and Distance Measures, Hierarchical and Partitional Algorithms. Hierarchical Clustering- CURE and Chameleon. Density Based Methods- DBSCAN, OPTICS. Grid Based Methods- STING, CLIQUE. Model Based Method – Statistical Approach, Association rules: Introduction, Large Item sets, Basic Algorithms, Parallel and Distributed Algorithms, Neural Network approach.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "Data Visualization and Overall Perspective · Warehousing applications and Recent Trends",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Data Visualization and Overall Perspective",
+       "details": "Data Visualization and Overall Perspective: Aggregation, Historical information, Query Facility, OLAP function and Tools. OLAP Servers, ROLAP, MOLAP, HOLAP, Data Mining interface, Security, Backup and Recovery, Tuning Data Warehouse, Testing Data Warehouse.",
+       "difficulty": "medium"
+      },
+      {
+       "name": "Warehousing applications and Recent Trends",
+       "details": "Warehousing applications and Recent Trends: Types of Warehousing Applications, Web Mining, Spatial Mining and Temporal Mining",
+       "difficulty": "easy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "BCS701",
+   "name": "Artificial Intelligence",
+   "semester": 7,
+   "scheme": "2025-26",
+   "source": "aktu_syllbus_4th_year.pdf",
+   "optional": false,
+   "units": [
+    {
+     "no": 1,
+     "title": "Introduction to Artificial Intelligence & Intelligent Agents",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Introduction to Artificial Intelligence & Intelligent Agents",
+       "details": "Introduction to Artificial Intelligence & Intelligent Agents: Definition and scope of AI, History and applications of AI, Characteristics of Intelligent Agents, Types of agents and environments, Agent architecture, Problem Solving Approach to Typical AI problems, Problem-solving agents. Example problems and approaches.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "Problem Solving & Search Strategies",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Problem Solving & Search Strategies",
+       "details": "Problem Solving & Search Strategies: Uninformed Search Strategies: BFS, DFS, Iterative Deepening, Informed Search Strategies: Greedy Best-First Search, A* Search, Heuristics and Optimization, Hill Climbing, Simulated Annealing, Constraint Satisfaction Problems, Game Playing: Min-max, Alpha-Beta Pruning, Stochastic & Partially Observable Games.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "Knowledge Representation & Reasoning",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Knowledge Representation & Reasoning",
+       "details": "Knowledge Representation & Reasoning: Propositional and First Order Logic, Syntax, Semantics, and Inference, Knowledge-based agents: Wumpus world, Logic Programming using Prolog, Forward and Backward Chaining, Resolution, Ontological Engineering and Reasoning.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "Uncertainty & Learning Techniques",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Uncertainty & Learning Techniques",
+       "details": "Uncertainty & Learning Techniques: Introduction to uncertainty and probabilistic reasoning, Bayes' Rule, Bayesian Networks, Fuzzy logic and handling imprecision, Neural Networks (basics only): Perceptron, Backpropagation (intro level), Fundamentals of Machine Learning in AI context, Introduction to supervised and unsupervised learning.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "Applications of AI & Multi-Agent Systems",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Applications of AI & Multi-Agent Systems",
+       "details": "Applications of AI & Multi-Agent Systems: Natural Language Processing, Machine Translation, Information Retrieval and Extraction, Robotics: Perception, Planning, and Motion, Speech Recognition, Software Agents: Architecture, Communication, Trust, Multi-agent Negotiation and Reputation. Explainable AI (XAI) – Importance of interpretability, techniques for explaining black- box models, trust in AI, case studies in NLP and vision.",
+       "difficulty": "medium"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "BCS070",
+   "name": "Internet of Things (Dept. Elective-IV)",
+   "semester": 7,
+   "scheme": "2025-26",
+   "source": "aktu_syllbus_4th_year.pdf",
+   "optional": true,
+   "units": [
+    {
+     "no": 1,
+     "title": "Internet of Things (IoT) · Design Principles for Connected Devices",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Internet of Things (IoT)",
+       "details": "Internet of Things (IoT): Vision, Definition, Conceptual Framework, Architectural view, technology behind IoT, Sources of the IoT, M2M Communication, IoT Examples.",
+       "difficulty": "easy"
+      },
+      {
+       "name": "Design Principles for Connected Devices",
+       "details": "Design Principles for Connected Devices: IoT/M2M systems layers and design standardization, communication technologies, data enrichment and consolidation, ease of designing and affordability",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "Hardware for IoT · Embedded Platforms for IoT",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Hardware for IoT",
+       "details": "Hardware for IoT: Sensors, Digital sensors, actuators, radio frequency identification (RFID) technology, wireless sensor networks, participatory sensing technology.",
+       "difficulty": "easy"
+      },
+      {
+       "name": "Embedded Platforms for IoT",
+       "details": "Embedded Platforms for IoT: Embedded computing basics, Overview of IOT supported Hardware platforms such as Arduino, NetArduino, Raspberry pi, Beagle Bone, Intel Galileo boards and ARM cortex.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "Network & Communication aspects in IoT",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Network & Communication aspects in IoT",
+       "details": "Network & Communication aspects in IoT: Wireless Medium access issues, MAC protocol survey, Survey routing protocols, Sensor deployment & Node discovery, Data aggregation & dissemination",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "Programming the Ardunio",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Programming the Ardunio",
+       "details": "Programming the Ardunio: Ardunio Platform Boards Anatomy, Ardunio IDE, coding, using emulator, using libraries, additions in ardunio, programming the ardunio for IoT.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "Challenges in IoT Design challenges",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Challenges in IoT Design challenges",
+       "details": "Challenges in IoT Design challenges: Development Challenges, Security Challenges, Other challenges IoT Applications: Smart Metering, E-health, City Automation, Automotive Applications, home automation, smart cards, communicating data with H/W units, mobiles, tablets, Designing of smart street lights in smart city.",
+       "difficulty": "medium"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "BCS071",
+   "name": "Cloud Computing (Dept. Elective-IV)",
+   "semester": 7,
+   "scheme": "2025-26",
+   "source": "aktu_syllbus_4th_year.pdf",
+   "optional": true,
+   "units": [
+    {
+     "no": 1,
+     "title": "Introduction To Cloud Computing",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Introduction To Cloud Computing",
+       "details": "Introduction To Cloud Computing: Definition of Cloud – Evolution of Cloud Computing – Underlying Principles of Parallel and Distributed Computing – Cloud Characteristics – Elasticity in Cloud – On‐ demand Provisioning.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "Cloud Enabling Technologies Service Oriented Architecture",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Cloud Enabling Technologies Service Oriented Architecture",
+       "details": "Cloud Enabling Technologies Service Oriented Architecture: REST and Systems of Systems – Web Services – Publish, Subscribe Model – Basics of Virtualization – Types of Virtualization – Implementation Levels of Virtualization – Virtualization Structures – Tools and Mechanisms – Virtualization of CPU – Memory – I/O Devices –Virtualization Support and Disaster Recovery.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "Cloud Architecture, Services And Storage",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Cloud Architecture, Services And Storage",
+       "details": "Cloud Architecture, Services And Storage: Layered Cloud Architecture Design – NIST Cloud Computing Reference Architecture – Public, Private and Hybrid Clouds – laaS – PaaS – SaaS – Architectural Design Challenges – Cloud Storage – Storage‐as‐a‐Service – Advantages of Cloud Storage – Cloud Storage Providers – S3.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "Resource Management And Security In Cloud",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Resource Management And Security In Cloud",
+       "details": "Resource Management And Security In Cloud: Inter Cloud Resource Management – Resource Provisioning and Resource Provisioning Methods – Global Exchange of Cloud Resources – Security Overview – Cloud Security Challenges – Software‐as‐a‐Service Security – Security Governance – Virtual Machine Security – IAM – Security Standards.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "Cloud Technologies And Advancements Hadoop",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Cloud Technologies And Advancements Hadoop",
+       "details": "Cloud Technologies And Advancements Hadoop: MapReduce – Virtual Box — Google App Engine – Programming Environment for Google App Engine –– Open Stack – Federation in the Cloud – Four Levels of Federation – Federated Services and Applications – Future of Federation.",
+       "difficulty": "medium"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "BCS072",
+   "name": "Cryptography & Network Security (Dept. Elective-IV)",
+   "semester": 7,
+   "scheme": "2025-26",
+   "source": "aktu_syllbus_4th_year.pdf",
+   "optional": true,
+   "units": [
+    {
+     "no": 1,
+     "title": "Introduction to security attacks, services and mechanism… · Modern Block Ciphers",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Introduction to security attacks, services and mechanism…",
+       "details": "Introduction to security attacks, services and mechanism, Classical encryption techniques- substitution ciphers and transposition ciphers, cryptanalysis, steganography, Stream and block ciphers.",
+       "difficulty": "easy"
+      },
+      {
+       "name": "Modern Block Ciphers",
+       "details": "Modern Block Ciphers: Block ciphers principles, Shannon’s theory of confusion and diffusion, fiestal structure, Data encryption standard(DES), Strength of DES, Idea of differential cryptanalysis, block cipher modes of operations, Triple DES",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "Introduction to group, field, finite field of the form…",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Introduction to group, field, finite field of the form…",
+       "details": "Introduction to group, field, finite field of the form GF(p), modular arithmetic, prime and relative prime numbers, Extended Euclidean Algorithm, Advanced Encryption Standard (AES) encryption and decryptionFermat’s and Euler’s theorem, Primarily testing, Chinese Remainder theorem, Discrete Logarithmic Problem,Principals of public key crypto systems, RSA algorithm, security of RSA",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "Message Authentication Codes · Digital Signatures",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Message Authentication Codes",
+       "details": "Message Authentication Codes: Authentication requirements, authentication functions, message authentication code, hash functions, birthday attacks, security of hash functions, Secure hash algorithm (SHA)",
+       "difficulty": "easy"
+      },
+      {
+       "name": "Digital Signatures",
+       "details": "Digital Signatures: Digital Signatures, Elgamal Digital Signature Techniques, Digital signature standards (DSS), proof of digital signature algorithm,",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "Key Management and distribution · Authentication Applications",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "Key Management and distribution",
+       "details": "Key Management and distribution: Symmetric key distribution, Diffie-Hellman Key Exchange, Public key distribution, X.509 Certificates, Public key Infrastructure.",
+       "difficulty": "easy"
+      },
+      {
+       "name": "Authentication Applications",
+       "details": "Authentication Applications: Kerberos, Electronic mail security: pretty good privacy (PGP), S/MIME.",
+       "difficulty": "easy"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "IP Security · System Security",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "IP Security",
+       "details": "IP Security: Architecture, Authentication header, Encapsulating security payloads, combining security associations, key management. Introduction to Secure Socket Layer, Secure electronic, transaction (SET)",
+       "difficulty": "easy"
+      },
+      {
+       "name": "System Security",
+       "details": "System Security: Introductory idea of Intrusion, Intrusion detection, Viruses and related threats, firewalls",
+       "difficulty": "easy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "BCS073",
+   "name": "Design & Development of Applications (Dept. Elective-IV)",
+   "semester": 7,
+   "scheme": "2025-26",
+   "source": "aktu_syllbus_4th_year.pdf",
+   "optional": true,
+   "units": [
+    {
+     "no": 1,
+     "title": "INTRODUCTION",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "INTRODUCTION",
+       "details": "INTRODUCTION: Introduction to mobile applications – Embedded systems - Market and business drivers for mobile applications – Publishing and delivery of mobile applications – Requirements gathering and validation for mobile applications",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "title": "BASIC DESIGN",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "BASIC DESIGN",
+       "details": "BASIC DESIGN: Introduction – Basics of embedded systems design – Embedded OS - Design constraints for mobile applications, both hardware and software related – Architecting mobile applications – User interfaces for mobile applications – touch events and gestures – Achieving quality constraints – performance, usability, security, availability and modifiability",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "title": "ADVANCED DESIGN",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "ADVANCED DESIGN",
+       "details": "ADVANCED DESIGN: Designing applications with multimedia and web access capabilities – Integration with GPS and social media networking applications – Accessing applications hosted in a cloud computing environment – Design patterns for mobile applications.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "title": "TECHNOLOGY I – ANDROID",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "TECHNOLOGY I – ANDROID",
+       "details": "TECHNOLOGY I – ANDROID: Introduction – Establishing the development environment – Android architecture – Activities and views – Interacting with UI – Persisting data using SQLite – Packaging and deployment – Interaction with server side applications – Using Google Maps, GPS and Wi-Fi – Integration with social media applications.",
+       "difficulty": "medium"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "title": "TECHNOLOGY II –iOS · Swift",
+     "weightage": null,
+     "topics": [
+      {
+       "name": "TECHNOLOGY II –iOS",
+       "details": "TECHNOLOGY II –iOS: Introduction to Objective C – iOS features – UI implementation – Touch frameworks – Data persistence using Core Data and SQLite – Location aware applications using Core Location and Map Kit – Integrating calendar and address book with social media application – Using Wi-Fi - iPhone marketplace.",
+       "difficulty": "medium"
+      },
+      {
+       "name": "Swift",
+       "details": "Swift: Introduction to Swift, features of swift",
+       "difficulty": "easy"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

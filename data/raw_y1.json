@@ -1,0 +1,538 @@
+[
+ {
+  "first_code": "AAS101E",
+  "title": "Quantum Physics and Applications",
+  "offered": [
+   [
+    "AAS101E",
+    1
+   ],
+   [
+    "AAS201E",
+    2
+   ]
+  ],
+  "units": {
+   "1": {
+    "text": "Fundamentals of Quantum Mechanics: Inadequacy of classical mechanics, de-Broglie concept of matter waves, Davisson and Germer experiment, wave packet, phase velocity, group velocity, Heisenberg’s uncertainty principle and its applications, time- dependent and time-independent Schrodinger wave equations, particle confined in one dimensional box, wave function and its physical interpretation.",
+    "first_line": "Fundamentals of Quantum Mechanics: Inadequacy",
+    "weight": 20,
+    "lang": null
+   },
+   "2": {
+    "text": "Quantum Theory of Solids: Free electron theory, Fermi-Dirac distribution, energy bands in solids, band gap, conductors, semiconductors and insulators, effective mass, density of states, intrinsic and extrinsic semiconductors, conductivity of semiconductors, Fermi level.",
+    "first_line": "Quantum Theory of Solids: Free electron theory,",
+    "weight": 20,
+    "lang": null
+   },
+   "3": {
+    "text": "Quantum Computing and Communication: Quantum computation, quantum states, quantum superposition, quantum entanglement, decoherence, quantum bits (qubits), physical realization of qubits (solid state qubits, photonics qubits), basics of quantum gates, single-qubit gate, multi-qubit gate, quantum cryptography, quantum key distribution (QKD).",
+    "first_line": "Quantum Computing and Communication:",
+    "weight": 20,
+    "lang": null
+   },
+   "4": {
+    "text": "Photonics Fiber optics: Fundamental idea about optical fiber, acceptance angle, acceptance cone, numerical aperture, principle of light propagation in optical fiber, attenuation and attenuation coefficient in fibre. Laser: Interaction of radiation with matter (absorption, spontaneous and stimulated emission), principle of laser operation, Einstein’s coefficients, Ruby laser, He-Ne laser, laser applications.",
+    "first_line": "Photonics",
+    "weight": 20,
+    "lang": null
+   },
+   "5": {
+    "text": "Superconductors: Temperature dependence of resistivity and critical field in superconducting materials, Meissner effect, Type I and Type II superconductors, persistent current, high temperature superconductors, properties, applications of superconductors. Nano-materials: Introduction and properties of nano-materials, basic concept of quantum dots, quantum wires and quantum well, applications of nano-materials.",
+    "first_line": "Superconductors: Temperature dependence of",
+    "weight": 20,
+    "lang": null
+   }
+  }
+ },
+ {
+  "first_code": "AAS102D",
+  "title": "Applied Chemistry for Smart Systems",
+  "offered": [
+   [
+    "AAS102D",
+    1
+   ],
+   [
+    "AAS202D",
+    2
+   ]
+  ],
+  "units": {
+   "1": {
+    "text": "Chemistry of Hardware Materials for Computing and Electronic Devices: Introduction to materials used in computers and electronic devices; semiconductors and conductors; silicon and its properties; basic concepts of doping; printed circuit board (PCB) materials; soldering materials; insulating and dielectric materials; reliability and corrosion of electronic components.",
+    "first_line": "Chemistry of Hardware Materials for Computing and",
+    "weight": 20,
+    "lang": null
+   },
+   "2": {
+    "text": "Energy Storage and Power Chemistry: Fundamentals of electrochemistry; primary and secondary batteries; lithium-ion batteries and their applications in laptops, mobiles and EVs; battery safety and charging principles; supercapacitors; fuel cells; introduction to energy harvesting materials and wireless charging technologies.",
+    "first_line": "Energy Storage and Power Chemistry: Fundamentals of",
+    "weight": 20,
+    "lang": null
+   },
+   "3": {
+    "text": "Sensors and Chemical Detection: Principles of chemical sensing, electrochemical sensors (amperometric,",
+    "first_line": "Sensors and Chemical Detection: Principles of chemical",
+    "weight": 20,
+    "lang": null
+   },
+   "4": {
+    "text": "Nanomaterials and Functional Materials for Smart Systems: Introduction to nanotechnology; carbon nanotubes (CNTs); graphene; quantum dots; smart coatings; self-cleaning and hydrophobic surfaces; photochromic and thermochromic materials; shape- memory polymers; applications in flexible electronics and smart devices.",
+    "first_line": "Nanomaterials and Functional Materials for Smart",
+    "weight": 20,
+    "lang": null
+   },
+   "5": {
+    "text": "Green Chemistry and E-waste Management: Principles of green chemistry; environmentally friendly electronic materials; biodegradable electronics; e-waste generation and hazards; recycling of electronic waste; recovery of valuable metals; RoHS and WEEE directives; sustainable manufacturing and circular economy in electronics.",
+    "first_line": "Green Chemistry and E-waste Management: Principles",
+    "weight": 20,
+    "lang": null
+   }
+  }
+ },
+ {
+  "first_code": "AAS103D",
+  "title": "Calculus and Linear Algebra",
+  "offered": [
+   [
+    "AAS103D",
+    1
+   ]
+  ],
+  "units": {
+   "1": {
+    "text": "Calculus: Introduction of Limits, continuity and differentiability for function of two variables, Partial derivatives, Composite functions, Total derivative, Euler’s Theorem for homogeneous functions, Change of variables Expansion for function of two variables, Jacobians, properties of Jacobian (without proof), Maxima & Minima for a function of several variables, Lagrange’s method of multipliers. Approximation of Errors. Applications: AI model optimization, Cloud computing performance, Data processing systems, Machine learning optimization, Neural network tuning, Resource allocation problem.",
+    "first_line": "Calculus: Introduction of Limits, continuity and",
+    "weight": 20,
+    "lang": null
+   },
+   "2": {
+    "text": "Multiple Integrals: Evaluation of double and triple integrals, change of order of integration, Change of variable (double integral), Beta and Gamma functions, Properties of Beta and Gamma function, Dirichlet,s Integral. Application of double integrals and Triple Integral to find area and volume. Applications: Image processing, Data density estimation, AI probability distribution.",
+    "first_line": "Multiple Integrals: Evaluation of double and triple",
+    "weight": 20,
+    "lang": null
+   },
+   "3": {
+    "text": "Vector Calculus: Scalar point function, Vector point function, Gradient of a scalar field, Directional derivatives, Divergence and curl of a vector function and their application to solenoidal and irrotational vectors respectively. Integration of Vectors, Stokes Theorem and Gauss Divergence Theorem (Without Proof). Applications: AI heat mapping, Robotics path planning, Computer graphics vector fields.",
+    "first_line": "Vector Calculus: Scalar point function, Vector point",
+    "weight": 20,
+    "lang": null
+   },
+   "4": {
+    "text": "Matrices: Introduction to Matrices, Complex Matrices: Hermitian, Skew Hermitian and Unitary Matrix. Elementary Transformation, Inverse by E- transformation, Rank of a Matrix by Echelon Form, Solution of system of linear Equations by direct method (Gauss Elimination Method), and Iterative method (Gauss Seidel Method). Eigen Values & Eigen Vectors, Similarity Transformation, Diagonalization, Stability Interpretation. Applications: Error detection and correction codes, Computer Graphics Rendering , Loop Current Analysis, Principal Component Analysis (PCA), Face recognition systems.",
+    "first_line": "Matrices: Introduction to Matrices, Complex",
+    "weight": 20,
+    "lang": null
+   },
+   "5": {
+    "text": "Introduction to Vector Space: Definition of Field, Introduction to Vector Spaces, Basic Properties of Vector Spaces, Sub spaces, Linear dependence and independence of vectors, Basis and Dimension. Application: Engineering Data Modeling and Compression, Signal representation and processing, Noise reduction using vector space concepts .",
+    "first_line": "Introduction to Vector Space: Definition of Field,",
+    "weight": 20,
+    "lang": null
+   }
+  }
+ },
+ {
+  "first_code": "AAS203D",
+  "title": "Numerical Methods",
+  "offered": [
+   [
+    "AAS203D",
+    2
+   ]
+  ],
+  "units": {
+   "1": {
+    "text": "Differential Equations: Linear differential equation of nth order with constant coefficients, Cauchy- Euler equation, solution of second order linear differential equations with variable coefficient by the method of variation of parameters, change of independent variable, normal form. Applications: Cloud Computing, Computer Networks, Cyber Security",
+    "first_line": "Differential Equations: Linear differential equation",
+    "weight": 20,
+    "lang": null
+   },
+   "2": {
+    "text": "Complex Analysis: Functions of Complex Variables, Limit Continuity and Differentiability, Analytic Function, Cauchy-Riemann Equations (Cartesian and Polar Form), Harmonic Function, Milne- Thomson Method, Complex integrals, Cauchy-",
+    "first_line": "Complex Analysis: Functions of Complex Variables,",
+    "weight": 20,
+    "lang": null
+   },
+   "3": {
+    "text": "Laplace Transform: Definition of Laplace Transform, Existence Conditions, Linearity Property, Laplace Transform of some standard functions, I and II Shifting theorems (without proof), Change of Scale Property, Laplace transform of derivatives and integrals, Periodic Functions, Unit Step Function, Inverse Laplace Transform, Partial Fraction Method, Convolution theorem (without proof), Application of Laplace transform to solve ordinary differential equation. Applications: Database Systems, Algorithmic Modelling",
+    "first_line": "Laplace Transform: Definition of Laplace",
+    "weight": 20,
+    "lang": null
+   },
+   "4": {
+    "text": "Fourier Series& Fourier Transform: Periodic function, even and odd function, Dirichlet’s Condition for the Existence of a Fourier Series, Fourier series expansion of a function in the interval c to c+2l,Change of Interval, Half Range Series: Half range sine and cosine series in the interval -l to l, Parseval’s Identity. Fourier Integral theorem, Fourier transform, Inverse Fourier Transform, Finite Fourier Sin and Cosine transform. Applications: Computer Graphics, Cyber Security, Digital Image Processing, Machine Learning Feature Extraction, Image compression.",
+    "first_line": "Fourier Series& Fourier Transform: Periodic",
+    "weight": 20,
+    "lang": null
+   },
+   "5": {
+    "text": "Applied Linear Algebra: Eigen Value Decomposition and Singular Value Decomposition, Matrix factorization, LU Decomposition (Dolittle method), QR Decomposition, Linear transformation, Matrix representation of Linear Transformation, Kernel and Range, Introduction to inner product space, Norm of a vector. Application: 2D & 3D graphics, Neural Networks, Cryptography",
+    "first_line": "Applied Linear Algebra: Eigen Value",
+    "weight": 20,
+    "lang": null
+   }
+  }
+ },
+ {
+  "first_code": "AEE101A",
+  "title": "Fundamentals of Electrical Engineering",
+  "offered": [
+   [
+    "AEE101A",
+    1
+   ],
+   [
+    "AEE201A",
+    2
+   ]
+  ],
+  "units": {
+   "1": {
+    "text": "Unit I – Basic Electrical Quantities and DC Circuits: Electric charge, current, voltage, EMF, resistance; Ohm's law; resistors in series and parallel; voltage divider and current divider; power and energy in a DC circuit; Kirchhoff's Voltage Law (KVL) and Kirchhoff's Current Law (KCL); simple mesh and nodal analysis; Thevenin's theorem (concept and simple problem",
+    "first_line": "Unit I – Basic Electrical Quantities and DC",
+    "weight": 20,
+    "lang": null
+   },
+   "2": {
+    "text": "AC Circuits: Generation of AC voltage; sinusoidal waveform — peak, RMS, and average values; form factor; phasor representation (simple); AC through pure R, pure L, pure C; series RL and RC circuits; impedance; active power (P), reactive power (Q), apparent power (S); power factor (PF); power factor improvement using capacitors; measurement of power in single-phase AC circuit using wattmeter.",
+    "first_line": "AC Circuits: Generation of AC voltage; sinusoidal",
+    "weight": 20,
+    "lang": null
+   },
+   "3": {
+    "text": "Three-Phase Systems: Advantages of three-phase supply over single-phase; generation of balanced three-phase voltage; star (Y) and delta (Δ) connections; phase and line voltages and currents; power in balanced three-phase circuits; two- wattmeter method for power measurement; concept of neutral wire",
+    "first_line": "Three-Phase Systems: Advantages of three-phase",
+    "weight": 20,
+    "lang": null
+   },
+   "4": {
+    "text": "Magnetic Circuits, Transformers: Magnetic flux, flux density, MMF, reluctance; simple series magnetic circuit; Faraday's law of electromagnetic induction; self-inductance and mutual inductance; principle of operation of single-phase transformer; EMF equation; ideal transformer — voltage ratio, current ratio, turns ratio; basic equivalent circuit of single phase transformer, losses (core and copper), efficiency",
+    "first_line": "Magnetic Circuits, Transformers: Magnetic flux,",
+    "weight": 20,
+    "lang": null
+   },
+   "5": {
+    "text": "Electrical Machines and Emerging Electrical Systems: DC motor — principle, back EMF, torque, speed control concept; Types of DC motors and their application; BLDC motor — basic concept and applications , three-phase induction motor — rotating magnetic field, slip, torque; Application of three phase induction motors, introduction to solar photovoltaic (PV) system- Single diode model, current-voltage characteristics, PV characteristics, electrical safety in laboratory",
+    "first_line": "Electrical Machines and Emerging Electrical",
+    "weight": 20,
+    "lang": null
+   }
+  }
+ },
+ {
+  "first_code": "AEC101A",
+  "title": "Fundamentals of Electronics Engineering",
+  "offered": [
+   [
+    "AEC101A",
+    1
+   ],
+   [
+    "AEC201A",
+    2
+   ]
+  ],
+  "units": {
+   "1": {
+    "text": "Diodes and Power Supply Circuits: p-n junction — concept of depletion layer, forward and reverse bias; ideal diode vs real diode; V-I characteristics; diode as a switch; half-wave and full-wave bridge rectifier; filter capacitor; Zener diode — Zener breakdown, voltage regulator circuit; LED — working and current-limiting resistor; applications: USB charger rectifier, 5V/3.3V regulated supply for Arduino/Raspberry Pi, LED indicators in electronics products",
+    "first_line": "Diodes and Power Supply Circuits: p-n junction —",
+    "weight": 20,
+    "lang": null
+   },
+   "2": {
+    "text": "Transistors as Switches and Amplifiers: Bipolar Junction Transistor (BJT) — Construction & VI characteristics of BJT, NPN and PNP, three regions of operation (cut-off, active, saturation); BJT as a switch (digital control of relay, buzzer, motor); BJT as a common-emitter amplifier (concept and gain);",
+    "first_line": "Transistors as Switches and Amplifiers: Bipolar",
+    "weight": 20,
+    "lang": null
+   },
+   "3": {
+    "text": "Operational Amplifier (Op-Amp): Ideal op-amp characteristics — infinite gain, infinite input impedance, zero output impedance; practical characteristics of 741 IC, inverting amplifier — voltage gain formula; non-inverting amplifier — gain formula; voltage follower (buffer); summing amplifier; comparator — op-amp as comparator, threshold detection; applications: sensor signal amplification (temperature, light, pressure), audio amplifier, automatic night lamp comparator circuit, differential amplifier for ECG/EEG front-end (concept)",
+    "first_line": "Operational Amplifier (Op-Amp): Ideal op-amp",
+    "weight": 20,
+    "lang": null
+   },
+   "4": {
+    "text": "Digital Electronics Basics: Number systems — binary, decimal, hexadecimal (conversion only); logic levels (HIGH/LOW, 0/1); basic logic gates — AND, OR, NOT, NAND, NOR, XOR with truth tables; Boolean algebra — basic laws and De Morgan's theorems; k-map (upto 4 variables), half adder and full adder (truth table and logic diagram); multiplexer concept; flip-flop — SR and D flip-flop (concept only); applications: binary addition in CPU ALU, MUX in data routing, digital signals in microcontroller I/O, basics of PLA / PLD devices.",
+    "first_line": "Digital Electronics Basics: Number systems —",
+    "weight": 20,
+    "lang": null
+   },
+   "5": {
+    "text": "Electronic Systems and Emerging Applications: Microcontroller overview — what is a microcontroller, GPIO pins, ADC- ADC types – digital ramp type & flash type ADC, PWM (concept only, not programming); communication interfaces — UART, SPI, I2C (what they do, not detailed protocol); sensors and signal chain — sensor → conditioning (op-amp) → ADC → microcontroller; wireless communication basics — Bluetooth, Wi-Fi, Zigbee (concept); power management in electronics — LDO regulator, DC-DC converter (concept); applications: IoT weather station, smart home sensor node,",
+    "first_line": "Electronic Systems and Emerging Applications:",
+    "weight": 20,
+    "lang": null
+   }
+  }
+ },
+ {
+  "first_code": "ACS101",
+  "title": "Programming Languages",
+  "offered": [
+   [
+    "ACS101",
+    1
+   ]
+  ],
+  "units": {
+   "1": {
+    "text": "Programming Basics (C): 1. Structure of a C program; compilation and execution 2. Data types, variables, constants, operators (arithmetic, relational, logical) 3. Input/output — scanf/printf in C 4. Type conversion; simple expressions Real connect: C powers embedded systems, microcontrollers, and OS kernels.",
+    "first_line": "Programming Basics (C):",
+    "weight": 20,
+    "lang": "C"
+   },
+   "2": {
+    "text": "Decision Making and Control Flow (C): 1. Control Statements 2. Loops — for, while, do-while; break and continue 3. Functions — definition, call, return; call by value",
+    "first_line": "Decision Making and Control Flow (C):",
+    "weight": 20,
+    "lang": "C"
+   },
+   "3": {
+    "text": "Advanced Programming Concepts (C): 1. 1D array — declaration, input, output, traversal 2. Simple operations — find max, min, sum, average 3. Strings in C — gets/puts, strlen, strcpy, strcmp 4. Pointer — concept of address and pointer variable (concept only, not deep) 5. Structures, 6. File Handling Real connect: Arrays store sensor readings, image pixels, and stock prices. Pointers are the foundation of memory management in embedded systems.",
+    "first_line": "Advanced Programming Concepts (C):",
+    "weight": 20,
+    "lang": "C"
+   },
+   "4": {
+    "text": "Python Introduction: 1. Why Python — where it is used (AI, Data Science, Web, Automation) 2. Python basics — variables, data types, print, input, operators 3. Python control flow — if/else, for loop, while loop 4. Python functions — def, return, default arguments Real connect: Python is #1 in AI/ML, Data Science, and automation — same syntax, more power, less boilerplate.",
+    "first_line": "Python Introduction:",
+    "weight": 20,
+    "lang": "Python"
+   },
+   "5": {
+    "text": "Python Data Structures and Emerging Applications 1. Python list, tuple, dictionary, set — basic operations only 2. File handling — read and write a text file; read a CSV (2–3 lines) 3. Introduction to NumPy — array, mean, simple arithmetic (5 lines) 4. Introduction to Matplotlib — plot a simple line graph (5 lines) 5. One mini-demo — IoT sensor simulation",
+    "first_line": "Python Data Structures and Emerging",
+    "weight": 20,
+    "lang": "Python"
+   }
+  }
+ },
+ {
+  "first_code": "ACS201",
+  "title": "Essentials of Data Structure",
+  "offered": [
+   [
+    "ACS201",
+    2
+   ]
+  ],
+  "units": {
+   "1": {
+    "text": "Introduction and Arrays 1. Data structure — definition, need, classification (linear / non-linear, static / dynamic) 2. Algorithm efficiency — Big O notation: O(1), O(n), O(log n), O(n²) — concept only 3. Array — insert, delete, search, traverse in C/Python 4. 2D array — matrix addition and transpose Real connect:NumPy array (AI/ML), image as 2D matrix, sensor data log as array, spreadsheet rows.",
+    "first_line": "Introduction and Arrays",
+    "weight": 20,
+    "lang": "C / Python"
+   },
+   "2": {
+    "text": "Linked List 1. Node — data + pointer; why linked list over array 2. Singly linked list — insert (head, tail, position), delete, traverse 3. Doubly linked list — concept and structure only 4. Circular linked list — concept only Real connect: Browser back/forward = doubly linked list. Music playlist = circular. Python deque = doubly linked list (used in BFS, LRU cache).",
+    "first_line": "Linked List",
+    "weight": 20,
+    "lang": "C/Python"
+   },
+   "3": {
+    "text": "Stack and Queue 1. Stack — LIFO; push, pop, peek; implementation using array in C/Python 2. Application: balanced parentheses check; function call stack (concept) 3. Queue — FIFO; enqueue, dequeue; implementation using array in C/ Python 4. Application: print spooler; task scheduling queue, Polish Notation Real connect: Ctrl+Z = Stack. WhatsApp delivery = Queue. Python error traceback IS a call stack. CPU scheduling = queue.",
+    "first_line": "Stack and Queue",
+    "weight": 20,
+    "lang": "C/Python"
+   },
+   "4": {
+    "text": "Searching and Sorting 1. Linear search, binary search, comparison 2. Bubble sort and insertion sort, Quick Sort and Selection Sort — trace + C/ Python 3. Merge sort — concept and trace only 4. Python built-in sort() and sorted() Real connect: Binary search in database index. Python sort() uses Timsort. E-commerce ranking, leaderboard, ML data preprocessing = sorting.",
+    "first_line": "Searching and Sorting",
+    "weight": 20,
+    "lang": "C/Python"
+   },
+   "5": {
+    "text": "Trees and Graphs (Concept Level) 1. Binary tree — terminology (root, leaf, height, level); properties 2. Binary Search Tree — insert, search; inorder/preorder traversal trace 3. Graph — vertex, edge, directed/undirected; adjacency list representation, insertion",
+    "first_line": "Trees and Graphs (Concept Level)",
+    "weight": 20,
+    "lang": null
+   }
+  }
+ },
+ {
+  "first_code": "AAS104",
+  "title": "Introduction to Indian Knowledge System",
+  "offered": [
+   [
+    "AAS104",
+    1
+   ],
+   [
+    "AAS204",
+    2
+   ]
+  ],
+  "units": {
+   "1": {
+    "text": "Foundations of the Indian Knowledge System Definition, scope, characteristics and significance of IKS; the IKS vision of NEP 2020; the fourteen (Chaturdasha) Vidyasthanas — four Vedas, four Upavedas and six Vedangas; Schools of Indian Philosophy: Orthodox and Heterodox Schools; Oral and Written Knowledge Systems, Knowledge validation (pramanas). Case study: relevance of IKS for a present-day engineer.",
+    "first_line": "Foundations of the Indian Knowledge System",
+    "weight": 20,
+    "lang": null
+   },
+   "2": {
+    "text": "Indian Mathematics, Astronomy and Scientific Thinking Number Systems: Decimal place-value system, zero and infinity; Bhutasankhya and Katapayadi numeration; Pingala’s Chandahshastra and binary representation; Sulbasutras; contributions of",
+    "first_line": "Indian Mathematics, Astronomy and Scientific",
+    "weight": 20,
+    "lang": null
+   },
+   "3": {
+    "text": "Engineering, Technology and Material Sciences Metallurgy — Wootz steel, zinc distillation and the Delhi Iron Pillar; town planning and architecture (Harappan, Vastu and Shilpa Shastra); water management — stepwells, tanks and irrigation, textile engineering Case study: materials-science analysis of the Iron Pillar/ Architecture of Stupas",
+    "first_line": "Engineering, Technology and Material Sciences",
+    "weight": 20,
+    "lang": null
+   },
+   "4": {
+    "text": "Health, Wellness, Environment and Governance Ayurveda (Charaka and Sushruta), Tridosha; Yoga (Patanjali’s Ashtanga) and wellness; environment and sustainability in Indian thought; governance and management — Kautilya’s Arthashastra; ethics from the Bhagavad Gita. Case study: Yoga for well-being / Arthashastra management principles/ Learnings from Geeta",
+    "first_line": "Health, Wellness, Environment and Governance",
+    "weight": 20,
+    "lang": null
+   },
+   "5": {
+    "text": "Contemporary Relevance, AI and Applications of IKS Digital preservation (CSIR-TKDL, IKS Division) and IPR; Sanskrit and computational linguistics — Panini’s Ashtadhyayi, NLP and AI for ancient texts; IKS-inspired sustainable engineering and innovation. Case study: AI/NLP applied to a Sanskrit corpus.",
+    "first_line": "Contemporary Relevance, AI and Applications of",
+    "weight": 20,
+    "lang": null
+   }
+  }
+ },
+ {
+  "first_code": "AAS105",
+  "title": "Professional Communication and Technical Writing",
+  "offered": [
+   [
+    "AAS105",
+    1
+   ],
+   [
+    "AAS205",
+    2
+   ]
+  ],
+  "units": {
+   "1": {
+    "text": "Professional Communication and Workplace Readiness  Fundamentals of communication: definition, process, importance of communication barriers to communication, 7 C’s of communication  Business Correspondence : Emails, Notices, Agenda, Minutes of Meeting, Technical Report and proposal  Résumé, CV and Cover Letter Writing",
+    "first_line": "Professional Communication and Workplace",
+    "weight": 20,
+    "lang": null
+   },
+   "2": {
+    "text": "Grammar and Vocabulary for Technical Writing  Parts of Speech and Sentence Structure  Common Grammatical Errors, Subject–Verb Agreement, Tenses, and Articles  Technical Vocabulary, Word Formation, and Precision in Language  Tone, Style, and Clarity in Technical English  Editing and Proofreading Techniques for Technical Writing  Grammar and Vocabulary Enhancement through Practical Writing Exercises Assignments/Activities  Edit and proofread a technical paragraph to improve grammar, vocabulary, precision, and clarity.",
+    "first_line": "Grammar and Vocabulary for Technical Writing",
+    "weight": 20,
+    "lang": null
+   },
+   "3": {
+    "text": "Public Speaking, Presentation and AI-Assisted Communication  Public speaking technique: Modes, verbal, and non- verbal communication  Understating non-verbal Communication through the Natyashastra: Angika Abhinaya (Body Language: Posture, Gestures, Facial Expressions),Vachika Abhinaya (Voice Modulation and Speech Delivery) ,Sattvika Abhinaya (Expression of Emotions and Authentic Communication)  Presentation Planning and Delivery  Data Visualization and Slide Design  Elevator Pitch  AI Tools for Presentation Design and Speech Practice, prompt writing for effective communication  Ethical Use of AI in Communication Assignments/Activities  Deliver an individual presentation.  Prepare an AI-assisted presentation with proper citations.  Record and evaluate an elevator pitch.",
+    "first_line": "Public Speaking, Presentation and AI-Assisted",
+    "weight": 20,
+    "lang": null
+   },
+   "4": {
+    "text": "Emotional Intelligence and Critical Thinking for Workplace Communication  Emotional Intelligence through the Bhagavad Gita :Self-awareness ,Self-regulation ,Empathy, Emotional Balance  Critical Thinking through Indian Values and Logical Traditions: Nyaya (Logical Reasoning),Viveka (Discrimination and Judgment),  Value-based Decision Making  Ethical Problem Solving  Reflective Thinking in Professional Contexts Assignments/Activities  Case study analysis using value-based decision making.  Reflective journal on emotional intelligence.  Group discussion on workplace ethical dilemmas.",
+    "first_line": "Emotional Intelligence and Critical Thinking for",
+    "weight": 20,
+    "lang": null
+   },
+   "5": {
+    "text": "Leadership, Workplace Well-being, and Mindful Communication  Leadership definition and types  Leadership Communication: Active Listening, Constructive Feedback, Teamwork, and Collaboration  Mental Health, Stress Management, and Work-Life Balance  Effective Communication through Yogic Practices: Yama as Principles of Ethical Communication Ahimsa – Respectful and Non-violent Communication, Satya – Truthfulness and Transparency, Asteya – Integrity and Honesty, Brahmacharya – Responsible and Balanced Communication, Aparigraha – Freedom from Ego, Bias, and Possessiveness. Niyama for Personal and Professional Growth, Shaucha – Clarity of Thought and Communication, Santosha – Contentment and Positive Workplace Relationships, Tapas – Self- discipline and Professional Commitment, Svadhyaya – Self-reflection and Continuous Learning ,Ishvara Pranidhana – Purpose, Humility, and Service-oriented Leadership  Storytelling through Panchatantra: The Lion and the Rabbit (Leadership and Strategic Communication), The Merchant's Iron Balance (Emotional Intelligence and Strategic Conflict Resolution), The Two Fish and the Frog (Leadership,",
+    "first_line": "Leadership, Workplace Well-being, and Mindful",
+    "weight": 20,
+    "lang": null
+   }
+  }
+ },
+ {
+  "first_code": "AAI101",
+  "title": "Introduction to AI and Prompt Engineering",
+  "offered": [
+   [
+    "AAI101",
+    1
+   ],
+   [
+    "AAI201",
+    2
+   ]
+  ],
+  "units": {
+   "1": {
+    "text": "Introduction to Artificial Intelligence 1. Definition and scope of AI; brief history — from Alan Turing to ChatGPT",
+    "first_line": "Introduction to Artificial Intelligence",
+    "weight": 20,
+    "lang": null
+   },
+   "2": {
+    "text": "Core AI Concepts 1. Machine learning: Classification Techniques- K- Nearest Neighbors (KNN), Naïve Bayes, Clustering Technique-K-Means 2. Classification metrics-accuracy, precision, recall, F1 score, MAE. 3. Neural networks — concept of neurons, layers, weights (simple diagram) 4. Deep learning — what makes it 'deep'; why it needs GPUs, CNN 5. Computer vision — how AI sees images (face recognition, medical imaging) 6. Natural Language Processing (NLP) — how AI understands text and speech Class Activity: Show Google Teachable Machine (teachablemachine.withgoogle.com) — train a simple image classifier in 5 minutes, no code. Branch connect: ECE — image sensors + AI; BT — protein structure prediction (AlphaFold); AG — plant disease detection from photos; TX — fabric defect detection.",
+    "first_line": "Core AI Concepts",
+    "weight": 20,
+    "lang": null
+   },
+   "3": {
+    "text": "Generative AI and Large Language Models 1. What is Generative AI — AI that creates text, images, code, audio, video",
+    "first_line": "Generative AI and Large Language Models",
+    "weight": 20,
+    "lang": null
+   },
+   "4": {
+    "text": "AI Applications Across Engineering Domains 1. AI in Civil Engineering — structural health monitoring, smart cities, traffic optimisation 2. AI in Mechanical Engineering — predictive maintenance, design optimisation, robotics 3. AI in Electrical and Electronics — smart grids, fault detection, VLSI design automation 4. AI in CSE — code generation (GitHub Copilot), cybersecurity, natural language interfaces 5. AI in Biotechnology and Healthcare — drug discovery, medical imaging, genomics, wearables 6. AI in Agricultural Engineering — precision farming, crop monitoring, drone-based spraying, soil analysis 7. AI in Chemical and Textile Engineering — process optimisation, quality control, material design 8. Ethical concerns — bias in AI, data privacy, job displacement, responsible AI Class Activity: One case study per student group — each group presents a 2-minute real AI application from their own engineering branch.",
+    "first_line": "AI Applications Across Engineering Domains",
+    "weight": 20,
+    "lang": null
+   },
+   "5": {
+    "text": "Prompt Engineering 1. What is a prompt — the instruction you give to an AI model 2. Why prompt quality matters — same AI, very different results with different prompts 3. Principles of good prompting — clarity, context, specificity, role assignment, format instruction 4. Prompting techniques: • Zero-shot prompting — direct question • Few-shot prompting — give examples in the prompt • Chain-of-thought prompting — ask AI to think step by step • Role prompting — 'Act as a civil engineer and...' 5. Prompt for different tasks — summarisation, explanation, code generation, report writing, brainstorming, translation 6. Domain-specific prompting — students write prompts relevant to their own branch (CE, ME, BT, AG, etc.) 7. AI tools for engineers — GitHub Copilot (code), Grammarly (writing), Consensus (research), Wolfram Alpha, Canva AI, Notion AI Hands-on Practice (every lecture): Students write prompts, compare outputs, refine and improve. Graded prompt assignment: write 5 prompts for an engineering problem from their own branch. Prompt Engineering is already a job role (avg. salary $100K+ globally). Every engineer who can communicate well with AI has a significant career advantage.",
+    "first_line": "Prompt Engineering",
+    "weight": 20,
+    "lang": null
+   }
+  }
+ },
+ {
+  "first_code": "AME101A",
+  "title": "Fundamentals of Mechanical Engineering",
+  "offered": [
+   [
+    "AME101A",
+    1
+   ],
+   [
+    "AME201A",
+    2
+   ]
+  ],
+  "units": {
+   "1": {
+    "text": "Engineering Mechanics and Strength of Materials (Basics): Types of forces and their effects; concept of stress and strain; beams — types of loads (point load, UDL), engineering materials — metals, polymers, ceramics, composites (properties and uses). Applications: frame of a laptop/server rack, load on a tower antenna, material selection for a robot arm, chassis of an electric vehicle.",
+    "first_line": "Engineering Mechanics and Strength of Materials",
+    "weight": 20,
+    "lang": null
+   },
+   "2": {
+    "text": "Thermodynamics and Heat Transfer Basics: System and surroundings; laws of thermodynamics; heat transfer — conduction, convection, radiation.",
+    "first_line": "Thermodynamics and Heat Transfer Basics:",
+    "weight": 20,
+    "lang": null
+   },
+   "3": {
+    "text": "Machine Elements and Power Transmission: Fasteners — bolts, screws, keys (types and use); shafts and couplings — rigid and flexible; bearings — ball bearing and roller bearing; belts and chains. Applications: gear train in a robotic joint, belt drive in a 3D printer, ball bearings in drone motor.",
+    "first_line": "Machine Elements and Power Transmission:",
+    "weight": 20,
+    "lang": null
+   },
+   "4": {
+    "text": "Manufacturing Processes: Casting, forming, machining (drilling, milling, grinding), joining — soldering, brazing; additive manufacturing — 3D printing, CNC machining concept. Applications: 3D- printed drone frame, cast aluminium heat sink, welded server rack.",
+    "first_line": "Manufacturing Processes: Casting, forming,",
+    "weight": 20,
+    "lang": null
+   },
+   "5": {
+    "text": "Mechatronics, Robotics, and Emerging Mechanical Systems: Introduction to mechatronics; actuators — DC motor, stepper motor, servo motor, hydraulic and pneumatic actuators, introduction to robotics (Cartesian, SCARA, articulated), drones — airframe, propulsion, flight controller concept and Industry 4.0.",
+    "first_line": "Mechatronics, Robotics, and Emerging",
+    "weight": 20,
+    "lang": null
+   }
+  }
+ }
+]

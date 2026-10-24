@@ -1,0 +1,170 @@
+[
+ {
+  "code": "RCS-501",
+  "name": "Database Management Systems",
+  "page": 4,
+  "units": {
+   "1": "Introduction: Overview, Database System vs File System, Database System Concept and Architecture, Data Model Schema and Instances, Data Independence and Database Language and Interfaces, Data Definitions Language, DML, Overall Database Structure. Data Modeling Using the Entity Relationship Model: ER Model Concepts, Notation for ER Diagram, Mapping Constraints, Keys, Concepts of Super Key, Candidate Key, Primary Key, Generalization, Aggregation, Reduction of an ER Diagrams to Tables, Extended ER Model, Relationship of Higher Degree.",
+   "2": "Relational data Model and Language: Relational Data Model Concepts, Integrity Constraints, Entity Integrity, Referential Integrity, Keys Constraints, Domain Constraints, Relational Algebra, Relational Calculus, Tuple and Domain Calculus. Introduction on SQL: Characteristics of SQL, Advantage of SQL. SQl Data Type and Literals. Types of SQL Commands. SQL Operators and Their Procedure. Tables, Views and Indexes. Queries and Sub Queries. Aggregate Functions. Insert, Update and Delete Operations, Joins, Unions, Intersection, Minus, Cursors, Triggers, Procedures in SQL/PL SQL",
+   "3": "Data Base Design & Normalization: Functional dependencies, normal forms, first, second, 8 third normal forms, BCNF, inclusion dependence, loss less join decompositions, normalization using FD, MVD, and JDs, alternative approaches to database design",
+   "4": "Transaction Processing Concept: Transaction System, Testing of Serializability, Serializability of Schedules, Conflict & View Serializable Schedule, Recoverability, Recovery from Transaction Failures, Log Based Recovery, Checkpoints, Deadlock Handling. Distributed Database: Distributed Data Storage, Concurrency Control, Directory System.",
+   "5": "Concurrency Control Techniques: Concurrency Control, Locking Techniques for Concurrency Control, Time Stamping Protocols for Concurrency Control, Validation Based Protocol, Multiple Granularity, Multi Version Schemes, Recovery with Concurrent Transaction, Case Study of Oracle."
+  }
+ },
+ {
+  "code": "RCS-502",
+  "name": "Design and Analysis of Algorithm",
+  "page": 5,
+  "units": {
+   "1": "Introduction: Algorithms, Analyzing Algorithms, Complexity of Algorithms, Growth of Functions, Performance Measurements, Sorting and Order Statistics - Shell Sort, Quick Sort, Merge Sort, Heap Sort, Comparison of Sorting Algorithms, Sorting in Linear Time.",
+   "2": "Advanced Data Structures: Red-Black Trees, B – Trees, Binomial Heaps, Fibonacci Heaps, Tries, Skip List",
+   "3": "Divide and Conquer with Examples Such as Sorting, Matrix Multiplication, Convex Hull and Searching. Greedy Methods with Examples Such as Optimal Reliability Allocation, Knapsack, Minimum Spanning Trees – Prim’s and Kruskal’s Algorithms, Single Source Shortest Paths -Dijkstra’s and Bellman Ford Algorithms.",
+   "4": "Dynamic Programming with Examples Such as Knapsack. All Pair Shortest Paths – Warshal’s and Floyd’s Algorithms, Resource Allocation Problem. Backtracking, Branch and Bound with Examples Such as Travelling Salesman Problem, Graph Coloring, n-Queen Problem, Hamiltonian Cycles and Sum of Subsets.",
+   "5": "Selected Topics: Algebraic Computation, Fast Fourier Transform, String Matching, Theory of NP-Completeness, Approximation Algorithms and Randomized Algorithms"
+  }
+ },
+ {
+  "code": "RCS-503",
+  "name": "Principles of Programming Languages",
+  "page": 6,
+  "units": {
+   "1": "Introduction: Role of Programming Languages: Why Programming Languages, Towards Higher-Level Languages, Programming Paradigms, Programming Environments Language Description: Syntactic Structure, Language Translation Issues: Programming Language Syntax, Stages in Translation, Formal Translation Models",
+   "2": "Data, Data Types, and Basic Statements : Names , Variables , Binding, Type Checking,",
+   "3": "Subprograms and Implementations : Subprograms, Design Issues, Local Referencing,",
+   "4": "Object-Orientation, Concurrency, and Event Handling : Grouping of Data and",
+   "5": "Functional and Logic Programming Languages : Introduction to Lambda Calculus ,"
+  }
+ },
+ {
+  "code": "RIT-051",
+  "name": "SOFTWARE PROJECT MANAGEMENT",
+  "page": 7,
+  "units": {
+   "1": "Introduction and Software Project Planning: Fundamentals of Software Project Management (SPM), Need Identification, Vision and Scope Document, Project Management Cycle, SPM Objectives, Management Spectrum, SPM Framework, Software Project Planning, Planning Objectives, Project Plan, Types of Project Plan, Structure of a Software Project Management Plan, Software Project Estimation, Estimation Methods, Estimation Models, Decision Process.",
+   "2": "Project Organization and Scheduling Project Elements: Work Breakdown Structure (WBS), Types of WBS, Functions, Activities and Tasks, Project Life Cycle and Product Life Cycle, Ways to Organize Personnel, Project Schedule, Scheduling Objectives, Building the Project Schedule, Scheduling Terminology and Techniques, Network Diagrams: PERT, CPM, Bar Charts: Milestone Charts, Gantt Charts",
+   "3": "Project Monitoring and Control: Dimensions of Project Monitoring & Control, Earned Value Analysis, Earned Value Indicators: Budgeted Cost for Work Scheduled (BCWS), Cost Variance (CV), Schedule Variance (SV), Cost Performance Index (CPI), Schedule Performance Index (SPI), Interpretation of Earned Value Indicators, Error Tracking, Software Reviews, Types of Review: Inspections, Deskchecks, Walkthroughs, Code Reviews, Pair Programming.",
+   "4": "Software Quality Assurance and Testing Objectives: Testing Principles, Test Plans, Test Cases, Types of Testing, Levels of Testing, Test Strategies, Program Correctness, Program Verification & Validation, Testing Automation & Testing Tools, Concept of Software Quality, Software Quality Attributes, Software Quality Metrics and Indicators, The SEI Capability Maturity Model CMM), SQA Activities, Formal SQA Approaches: Proof of Correctness, Statistical Quality Assurance, Cleanroom Process.",
+   "5": "Project Management and Project Management Tools Software Configuration Management: Software Configuration Items and Tasks, Baselines, Plan for Change, Change Control, Change Requests Management, Version Control, Risk Management: Risks and Risk Types, Risk Breakdown Structure (RBS), Risk Management Process: Risk Identification, Risk Analysis, Risk Planning, Risk Monitoring, Cost Benefit Analysis, Software Project Management Tools: CASE Tools, Planning and Scheduling Tools, MS-Project."
+  }
+ },
+ {
+  "code": "RIT-052",
+  "name": "SOFTWARE TESTING & AUDIT",
+  "page": 8,
+  "units": {
+   "1": "Review of Software Engineering: Overview of Software Evolution, SDLC, Testing Process, Terminologies in Testing: Error, Fault, Failure, Verification, Validation, Difference Between Verification and Validation, Test Cases, Testing Suite, Test ,Oracles, Impracticality of Testing All Data; Impracticality of Testing AllPaths. Verification: Verification Methods, SRS Verification, Source Code Reviews, User Documentation Verification, Software, Project Audit, Tailoring Software Quality Assurance Program by Reviews, Walkthrough, Inspection and Configuration Audits.",
+   "2": "Functional Testing: Boundary Value Analysis, Equivalence Class Testing, Decision Table Based Testing, Cause Effect Graphing Technique. Structural Testing: Control Flow Testing, Path Testing, Independent Paths, Generation of Graph from Program, Identification of Independent Paths, Cyclomatic Complexity, Data Flow Testing, Mutation Testing",
+   "3": "Regression Testing: What is Regression Testing? Regression Test cases selection, Reducing the number of test cases, Code coverage prioritization technique. Reducing the number of test cases: Prioritization guidelines, Priority category, Scheme, Risk Analysis.",
+   "4": "Software Testing Activities: Levels of Testing, Debugging, Testing techniques and their applicability, Exploratory Testing Automated Test Data Generation: Test Data, Approaches to test data generation, test data generation using genetic algorithm, Test Data Generation Tools, Software Testing Tools, and Software test Plan.",
+   "5": "Object Oriented Testing: Definition, Issues, Class Testing, Object Oriented Integration and System Testing. Testing Web Applications: Web Testing, User Interface Testing, Usability Testing, Security Testing, Performance Testing, Database testing, Post Deployment Testing."
+  }
+ },
+ {
+  "code": "RCS-051",
+  "name": "OPERATION RESEARCH",
+  "page": 9,
+  "units": {
+   "1": "Definition and Scope of Operations Research (OR), OR Model, Solving the OR Model, Art of Modelling, Phases of OR Study. Linear Programming: Two Variable Linear Programming Model and Graphical Method of Solution, Simplex Method, Dual Simplex Method, Special Cases of Linear Programming, Duality, Sensitivity Analysis.",
+   "2": "Transportation Problems: Types of Transportation Problems, Mathematical Models, Transportation Algorithms, Assignment: Allocation and Assignment Problems and Models, Processing of Job through Machines.",
+   "3": "Network Techniques: Shortest Path Model, Minimum Spanning Tree Problem, Max‐Flow Problem and Min‐Cost Problem. Project Management: Phases of Project Management, Guidelines for Network Construction, CPM and PERT.",
+   "4": "Theory of Games : Rectangular Games, Minimax Theorem, Graphical Solution of 2 x n or m x 2 Games, Game with Mixed Strategies, Reduction to Linear Programming Model. Quality Systems: Elements of Queuing Model, Generalized Poisson Queuing Model, Single Server Models.",
+   "5": "Control: Models of Inventory, Operation of Inventory System, Quantity Discount. Replacement Models: Equipment’s that Deteriorate with Time, Equipment’s that Fail with Time."
+  }
+ },
+ {
+  "code": "RCS-052",
+  "name": "WEB TECHNOLOGIES",
+  "page": 10,
+  "units": {
+   "1": "Introduction: Introduction and Web Development Strategies, History of Web and Internet, Protocols Governing Web, Writing Web Projects, Connecting to Internet, Introduction to Internet services and tools, Introduction to client-server computing. Core Java: Introduction, Operator, Data type, Variable, Arrays, Methods & Classes, Inheritance, Package and Interface, Exception Handling, Multithread programming, I/O, Java Applet, String handling, Event handling, Introduction to AWT, AWT controls, Layout managers",
+   "2": "Web Page Designing: HTML: List, Table, Images, Frames, forms, CSS, Document type definition, XML: DTD, XML schemes, Object Models, presenting and using XML, Using XML Processors: DOM and SAX, Dynamic HTML",
+   "3": "Scripting: Java script: Introduction, documents, forms, statements, functions, objects; introduction to AJAX, Networking : Internet Addressing, InetAddress, Factory Methods, Instance Methods, TCP/IP Client Sockets, URL, URL Connection, TCP/IP Server Sockets, Datagram.",
+   "4": "Enterprise Java Bean: Preparing a Class to be a JavaBeans, Creating a JavaBeans, JavaBeans",
+   "5": "Servlets: Servlet Overview and Architecture, Interface Servlet and the Servlet Life Cycle, H"
+  }
+ },
+ {
+  "code": "RCS-601",
+  "name": "COMPUTER NETWORKS",
+  "page": 13,
+  "units": {
+   "1": "Introduction Concepts: Goals and Applications of Networks, Network structure and architecture, The OSI reference model, services, Network Topology Design - Delay Analysis, Back Bone Design, Local Access Network Design, Physical Layer Transmission Media, Switching methods, ISDN, Terminal Handling",
+   "2": "Medium Access sub layer: Medium Access sub layer - Channel Allocations, LAN protocols - ALOHA protocols - Overview of IEEE standards - FDDI. Data Link Layer - Elementary Data Link Protocols, Sliding Window protocols, Error Handling.",
+   "3": "Network Layer: Network Layer - Point - to Pont Networks, routing, Congestion control Internetworking -TCP / IP, IP packet, IP address, IPv6.",
+   "4": "Transport Layer: Transport Layer - Design issues, connection management, session Layer-Design issues, remote procedure call. Presentation Layer-Design issues, Data compression techniques, cryptography - TCP - Window Management.",
+   "5": "Application Layer: Application Layer: File Transfer, Access and Management, Electronic mail, Virtual Terminals, Other application. Example Networks - Internet and Public Networks"
+  }
+ },
+ {
+  "code": "RCS-602",
+  "name": "COMPILER DESIGN",
+  "page": 14,
+  "units": {
+   "1": "Introduction to Compiler: Phases and passes, Bootstrapping, Finite state machines and regular expressions and their applications to lexical analysis, Optimization of DFA-Based Pattern Matchers implementation of lexical analyzers, lexical-analyzer generator, LEX compiler, Formal grammars and their application to syntax analysis, BNF notation, ambiguity, YACC. The syntactic specification of programming languages: Context free grammars, derivation and parse trees, capabilities of CFG.",
+   "2": "Basic Parsing Techniques: Parsers, Shift reduce parsing, operator precedence parsing, top down parsing, predictive parsers Automatic Construction of efficient Parsers: LR parsers, the canonical Collection of LR(0) items, constructing SLR parsing tables, constructing Canonical LR parsing tables, Constructing LALR parsing tables, using ambiguous grammars, an automatic parser generator, implementation of LR parsing tables.",
+   "3": "Syntax-directed Translation: Syntax-directed Translation schemes, Implementation of Syntax-directed Translators, Intermediate code, postfix notation, Parse trees & syntax trees, three address code, quadruple & triples, translation of assignment statements, Boolean expressions, statements that alter the flow of control, postfix translation, translation with a top down parser. More about translation: Array references in arithmetic expressions, procedures call, declarations and case statements.",
+   "4": "Symbol Tables: Data structure for symbols tables, representing scope information. Run- Time Administration: Implementation of simple stack allocation scheme, storage allocation in block structured language. Error Detection & Recovery: Lexical Phase errors, syntactic phase errors semantic errors.",
+   "5": "Code Generation: Design Issues, the Target Language. Addresses in the Target Code, Basic Blocks and Flow Graphs, Optimization of Basic Blocks, Code Generator. Code optimization: Machine-Independent Optimizations, Loop optimization, DAG representation of basic blocks, value numbers and algebraic laws, Global Data-Flow analysis."
+  }
+ },
+ {
+  "code": "RCS-603",
+  "name": "COMPUTER GRAPHICS",
+  "page": 15,
+  "units": {
+   "1": "Introduction and Line Generation: Types of computer graphics, Graphic Displays- Random scan displays, Raster scan displays, Frame buffer and video controller, Points and lines, Line drawing algorithms, Circle generating algorithms, Mid-point circle generating algorithm, and parallel version of these algorithms.",
+   "2": "Transformations: Basic transformation, Matrix representations and homogenous coordinates, Composite transformations, Reflections and shearing. Windowing and Clipping: Viewing pipeline, Viewing transformations, 2-D Clipping algorithms- Line clipping algorithms such as Cohen Sutherland line clipping algorithm, Liang Barsky algorithm, Line clipping against non rectangular clip windows; Polygon clipping – Sutherland Hodgeman polygon clipping, Weiler and Atherton polygon clipping, Curve clipping, Text clipping",
+   "3": "Three Dimensional: 3-D Geometric Primitives, 3-D Object representation, 3-D Transformation, 3-D viewing, projections, 3-D Clipping.",
+   "4": "Curves and Surfaces: Quadric surfaces, Spheres, Ellipsoid, Blobby objects, Introductory concepts of Spline, Bspline and Bezier curves and surfaces.",
+   "5": "Hidden Lines and Surfaces: Back Face Detection algorithm, Depth buffer method, A- buffer method, Scan line method, basic illumination models– Ambient light, Diffuse reflection, Specular reflection and Phong model, Combined approach, Warn model, Intensity Attenuation, Color consideration, Transparency and Shadows."
+  }
+ },
+ {
+  "code": "RIT-061",
+  "name": "DESIGN AND DEVELOPMENT OF APPLICATIONS",
+  "page": 16,
+  "units": {
+   "1": "INTRODUCTION: Introduction to mobile applications – Embedded systems - Market and business drivers for mobile applications – Publishing and delivery of mobile applications – Requirements gathering and validation for mobile applications",
+   "2": "BASIC DESIGN: Introduction – Basics of embedded systems design – Embedded OS - Design constraints for mobile applications, both hardware and software related – Architecting mobile applications – User interfaces for mobile applications – touch events and gestures – Achieving quality constraints – performance, usability, security, availability and modifiability.",
+   "3": "ADVANCED DESIGN: Designing applications with multimedia and web access capabilities – Integration with GPS and social media networking applications – Accessing applications hosted in a cloud computing environment – Design patterns for mobile applications.",
+   "4": "TECHNOLOGY I – ANDROID: Introduction – Establishing the development environment – Android architecture – Activities and views – Interacting with UI – Persisting data using SQLite – Packaging and deployment – Interaction with server side applications – Using Google Maps, GPS and Wi-Fi – Integration with social media applications.",
+   "5": "TECHNOLOGY II – iOS: Introduction to Objective C – iOS features – UI implementation – Touch frameworks – Data persistence using Core Data and SQLite – Location aware applications using Core Location and Map Kit – Integrating calendar and address book with social media application – Using Wi-Fi - iPhone marketplace. Swift: Introduction to Swift, features of swift."
+  }
+ },
+ {
+  "code": "RIT-062",
+  "name": "DATAWAREHOUSING & DATA MINING",
+  "page": 17,
+  "units": {
+   "1": "Data Warehousing: Overview, Definition, Data Warehousing Components, Building a Data Warehouse, Warehouse Database, Mapping the Data Warehouse to a Multiprocessor Architecture, Difference between Database System and Data Warehouse, Multi Dimensional Data Model, Data Cubes, Stars, Snow Flakes, Fact Constellations, Concept",
+   "2": "Data Warehouse Process and Technology: Warehousing Strategy, Warehouse /management and Support Processes, Warehouse Planning and Implementation, Hardware and Operating Systems for Data Warehousing, Client/Server Computing Model & Data Warehousing. Parallel Processors & Cluster Systems, Distributed DBMS implementations, Warehousing Software, Warehouse Schema Design,",
+   "3": "Data Mining: Overview, Motivation, Definition & Functionalities, Data Processing, Form of Data Pre-processing, Data Cleaning: Missing Values, Noisy Data, (Binning, Clustering, Regression, Computer and Human inspection), Inconsistent Data, Data Integration and Transformation. Data Reduction:-Data Cube Aggregation, Dimensionality reduction, Data Compression, Numerosity Reduction, Discretization and Concept hierarchy generation, Decision Tree.",
+   "4": "Classification: Definition, Data Generalization, Analytical Characterization, Analysis of attribute relevance, Mining Class comparisons, Statistical measures in large Databases, Statistical-Based Algorithms, Distance-Based Algorithms, Decision Tree-Based Algorithms. Clustering: Introduction, Similarity and Distance Measures, Hierarchical and Partitional Algorithms. Hierarchical Clustering- CURE and Chameleon. Density Based Methods- DBSCAN, OPTICS. Grid Based Methods- STING, CLIQUE. Model Based Method – Statistical Approach, Association rules: Introduction, Large Item sets, Basic Algorithms, Parallel and Distributed Algorithms, Neural Network approach.",
+   "5": "Data Visualization and Overall Perspective: Aggregation, Historical information, Query Facility, OLAP function and Tools. OLAP Servers, ROLAP, MOLAP, HOLAP, Data Mining interface, Security, Backup and Recovery, Tuning Data Warehouse, Testing Data Warehouse. Warehousing applications and Recent Trends: Types of Warehousing Applications, Web Mining, Spatial Mining and Temporal Mining"
+  }
+ },
+ {
+  "code": "RCS-061",
+  "name": "INTERNET OF THINGS",
+  "page": 18,
+  "units": {
+   "1": "Internet of Things (IoT): Vision, Definition, Conceptual Framework, Architectural view, technology behind IoT, Sources of the IoT, M2M Communication, IoT Examples . Design Principles for Connected Devices: IoT/M2M systems layers and design standardization, communication technologies, data enrichment and consolidation, ease of designing and affordability.",
+   "2": "Hardware for IoT: Sensors, digital sensors, actuators, radio frequency identification (RFID) technology, wireless sensor networks, participatory sensing technology. Embedded Platforms for IoT: Embedded computing basics, Overview of IOT supported Hardware platforms such as Arduino, NetArduino, Raspberry pi, Beagle Bone, Intel Galileo boards and ARM cortex.",
+   "3": "Network & Communication Aspects in IoT: Wireless medium access issues, MAC protocol survey, Survey routing protocols, Sensor deployment & Node discovery, Data aggregation & dissemination",
+   "4": "Programming the Ardunio: Ardunio platform boards anatomy, ardunio IDE, coding, using emulator, using libraries, additions in ardunio, programming the ardunio for IoT.",
+   "5": "Challenges in IoT Design Challenges: Development challenges, Security challenges, Other challenges IoT Applications : Smart metering, e-health, city automation, automotive applications, home automation, smart cards, Communicating data with H/W units, mobiles, tablets, Designing of smart street lights in smart city."
+  }
+ },
+ {
+  "code": "RCS-062",
+  "name": "NEURAL NETWORK",
+  "page": 19,
+  "units": {
+   "1": "Neuro Computing and Neuroscience: Historical notes, human Brain, neuron Mode l, Knowledge representation, Al and NN. Learning process: Supervised and unsupervised learning, Error correction learning, competitive learning, adaptation, statistical nature of the learning process.",
+   "2": "Data Processing Scaling: Normalization, Transformation (FT/FFT), principal component analysis, regression, co-variance matrix, Eigen values & Eigen vectors. Basic Models of Artificial neurons, activation Functions, aggregation function, single neuron computation, multilayer perception, least mean square algorithm, gradient descent rule, nonlinearly separable problems and bench mark problems in NN.",
+   "3": "Multilayered Network Architecture: Back propagation algorithm, heuristics for making BP-algorithm performs better. Accelerated learning BP (like recursive least square, quick prop, RPROP algorithm), approximation properties of RBF networks and comparison with multilayer perceptron.",
+   "4": "Recurrent Network and Temporal Feed-Forward Network: Implementation with BP, self-Organizing map and SOM algorithm, properties of feature map and computer simulation. Principal component and Independent component analysis, application to image and signal processing",
+   "5": "Complex Valued NN and Complex Valued BP: Analyticity of activation function, application in 2D information processing. Complexity analysis of network models. Soft computing. Neuro-Fuzzy-genetic algorithm Integration"
+  }
+ }
+]

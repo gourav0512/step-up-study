@@ -1,4 +1,19 @@
-:root{--bg:#f4f6fb;--card:#fff;--ink:#1e2433;--muted:#6b7280;--line:#e5e8f0;--blue:#2563eb;--purple:#7c3aed;--grad:linear-gradient(135deg,#2563eb,#7c3aed);--ok:#059669;--warn:#d97706;--err:#dc2626;--r:16px;--sh:0 1px 2px rgba(30,36,51,.05),0 6px 20px rgba(30,36,51,.06)}
+:root {
+  --bg: #F5F3E9;
+  --card: #FFFEFA;
+  --ink: #143D32;
+  --muted: #667C70;
+  --line: #D8E8D0;
+  --blue: #216B50;
+  --purple: #216B50;
+  --grad: linear-gradient(135deg, #143D32, #216B50);
+  --ok: #059669;
+  --warn: #D97706;
+  --err: #DC2626;
+  --r: 16px;
+  --sh: 0 1px 2px rgba(20,61,50,.05),
+        0 6px 20px rgba(20,61,50,.08);
+}
 *{box-sizing:border-box}html,body{margin:0}
 body{font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--ink);font-size:15px;line-height:1.5}
 h1,h2,h3{margin:0;line-height:1.25}h1{font-size:26px}h2{font-size:18px}h3{font-size:15px}
@@ -91,3 +106,171 @@ table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:10px 8px
  .auth{grid-template-columns:1fr}.hero{padding:32px 24px}.hero h1{font-size:28px}.hero ul{display:none}
 }
 @media(max-width:560px){.g4{grid-template-columns:1fr 1fr}.form{grid-template-columns:1fr}.stat .val{font-size:24px}}
+/* FOREST GREEN + CREAM THEME */
+
+/* Sidebar */
+.sidebar {
+  background: #FFFEFA;
+}
+
+.nav a {
+  color: #35594A;
+}
+
+.nav a:hover {
+  background: #E7EEDF;
+}
+
+.nav a.active {
+  box-shadow: 0 6px 16px rgba(20,61,50,.25);
+}
+
+/* Topbar */
+.topbar {
+  background: rgba(245,243,233,.95);
+}
+
+/* Cards */
+.card {
+  border-color: #D8E8D0;
+}
+
+/* Buttons */
+.btn:hover {
+  box-shadow: 0 6px 16px rgba(20,61,50,.25);
+}
+
+.btn.ghost {
+  background: #FFFEFA;
+}
+
+.btn.ghost:hover {
+  background: #E7EEDF;
+}
+
+/* Dashboard stats */
+.stat.grad .lbl {
+  color: #D8E8D0;
+}
+
+/* Badges */
+.badge {
+  background: #D8E8D0;
+  color: #143D32;
+}
+
+.badge.study {
+  background: #D8E8D0;
+  color: #216B50;
+}
+
+.badge.revision {
+  background: #E7EEDF;
+  color: #35594A;
+}
+
+/* Progress bar and ring */
+.bar {
+  background: #E7EEDF;
+}
+
+.ring {
+  background: conic-gradient(
+    var(--purple) calc(var(--p)*1%),
+    #D8E8D0 0
+  );
+}
+
+.ring::before {
+  background: #FFFEFA;
+}
+
+/* Form */
+.inp,
+select.inp {
+  border-color: #C8D9C7;
+  background: #FFFEFA;
+}
+
+.inp:focus {
+  border-color: #216B50;
+  box-shadow: 0 0 0 3px rgba(33,107,80,.15);
+}
+
+/* Selected goal */
+.goal.sel {
+  box-shadow: 0 8px 24px rgba(33,107,80,.2);
+}
+
+/* Tabs */
+.tabs,
+details.sub,
+.day {
+  background: #FFFEFA;
+}
+
+.tab {
+  color: #35594A;
+}
+
+/* Study calendar */
+.day.on small {
+  color: #D8E8D0;
+}
+
+.day .dot {
+  background: #D8E8D0;
+}
+
+/* Study explanation */
+.reason {
+  color: #35594A;
+  background: #EAF0E4;
+}
+
+/* Information notice */
+.notice.info {
+  background: #EAF0E4;
+  border-color: #C8D9C7;
+  color: #143D32;
+}
+
+/* Charts */
+.col .bars i {
+  background: #A7C8AE;
+}
+
+/* Chips */
+.chip {
+  background: #E7EEDF;
+  color: #143D32;
+}
+
+/* LOGIN AND SIGNUP */
+.hero {
+  background: linear-gradient(
+    135deg,
+    #0B3028 0%,
+    #143D32 55%,
+    #28634B 100%
+  );
+}
+
+.hero p {
+  color: #D8E8D0;
+}
+
+.hero li {
+  background: rgba(216,232,208,.12);
+  border: 1px solid rgba(216,232,208,.18);
+}
+
+.authbox {
+  background: #F5F3E9;
+}
+
+.authcard {
+  background: #FFFEFA;
+}
+
+/* Keep status colors for warnings/errors */
